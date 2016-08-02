@@ -79,7 +79,14 @@
                                         <div class="mainmenu">
                                             <nav>
                                                 <ul id="nav">
-                                                    <li class="drop-down"><a href="index.html">HOME</a>
+                                                    <?php wp_nav_menu(array(
+                                                        'theme_location' => 'Principal',
+                                                        'container' => '',
+                                                        'container_class' => 'pull-right',
+                                                        'menu_id' => 'nav'
+                                                    ));
+                                                    ?>
+                                                    <!--<li class="drop-down"><a href="index.html">HOME</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="#" class="mega-title">Homepages</a></li>
                                                             <li><a href="index-2.html">Homepage Version 2</a></li>
@@ -145,7 +152,7 @@
                                                             <li><a href="blog-details.html">Blog Details Page</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="contact.html">Contact Us</a></li>
+                                                    <li><a href="contact.html">Contact Us</a></li>-->
                                                 </ul>
                                             </nav>
                                         </div> 
