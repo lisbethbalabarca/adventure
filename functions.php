@@ -1,8 +1,8 @@
 <?php 
 	function config_site(){
 		register_post_type(
-			'noticias', array(
-				'labels' => array('name' => 'Noticias', 'singular_name' => 'Noticia' ),
+			'tour', array(
+				'labels' => array('name' => 'Tours', 'singular_name' => 'tour' ),
 				'public' => true,
 				'rewrite' => array('slug' => 'noticia'),
 				'supports' => array('title' , 'editor' , 'author' , 'thumbnail' )
@@ -15,7 +15,7 @@
 			'Principal' => __('Principal')
 		));
 	}
-	
+
 	add_theme_support('post-thumbnails');
 	add_action('init', 'config_site');
 
