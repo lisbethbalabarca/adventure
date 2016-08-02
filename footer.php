@@ -119,51 +119,51 @@
         
         <!-- jquery
         ============================================ -->        
-        <script src="js/vendor/jquery-1.12.3.min.js"></script>
+        <script src="<?php bloginfo('template_url') ?>/js/vendor/jquery-1.12.3.min.js"></script>
         
         <!-- bootstrap JS
         ============================================ -->        
-        <script src="js/bootstrap.min.js"></script>
+        <script src="<?php bloginfo('template_url') ?>/js/bootstrap.min.js"></script>
         
         <!-- nivo slider js
         ============================================ -->       
-        <script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
-        <script src="lib/nivo-slider/home.js" type="text/javascript"></script>
+        <script src="<?php bloginfo('template_url') ?>/lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+        <script src="<?php bloginfo('template_url') ?>/lib/nivo-slider/home.js" type="text/javascript"></script>
         
         <!-- wow JS
         ============================================ -->        
-        <script src="js/wow.min.js"></script>
+        <script src="<?php bloginfo('template_url') ?>/js/wow.min.js"></script>
         
         <!-- meanmenu JS
         ============================================ -->        
-        <script src="js/jquery.meanmenu.js"></script>
+        <script src="<?php bloginfo('template_url') ?>/js/jquery.meanmenu.js"></script>
         
         <!-- owl.carousel JS
         ============================================ -->        
-        <script src="js/owl.carousel.min.js"></script>
+        <script src="<?php bloginfo('template_url') ?>/js/owl.carousel.min.js"></script>
         
         <!-- price-slider JS
         ============================================ -->        
-        <script src="js/jquery-price-slider.js"></script>
+        <script src="<?php bloginfo('template_url') ?>/js/jquery-price-slider.js"></script>
         
         <!-- scrollUp JS
         ============================================ -->        
-        <script src="js/jquery.scrollUp.min.js"></script>
+        <script src="<?php bloginfo('template_url') ?>/js/jquery.scrollUp.min.js"></script>
         
         <!-- Waypoints JS
         ============================================ -->        
-        <script src="js/waypoints.min.js"></script>
+        <script src="<?php bloginfo('template_url') ?>/js/waypoints.min.js"></script>
         
         <!-- Counter Up JS
         ============================================ -->        
-        <script src="js/jquery.counterup.min.js"></script>
+        <script src="<?php bloginfo('template_url') ?>/js/jquery.counterup.min.js"></script>
         
         <!-- plugins JS
         ============================================ -->        
-        <script src="js/plugins.js"></script>
+        <script src="<?php bloginfo('template_url') ?>/js/plugins.js"></script>
         
         <!-- main JS
         ============================================ -->        
-        <script src="js/main.js"></script>
+        <script src="<?php bloginfo('template_url') ?>/js/main.js"></script>
     </body>
 </html>

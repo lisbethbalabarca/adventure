@@ -18,32 +18,32 @@
        
         <!-- Bootstrap CSS
         ============================================ -->        
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/bootstrap.min.css">
         
         <!-- Fontawsome CSS
         ============================================ -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/font-awesome.min.css">
         
         <!-- owl.carousel CSS
         ============================================ -->
-        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/owl.carousel.css">
         
         <!-- jquery-ui CSS
         ============================================ -->
-        <link rel="stylesheet" href="css/jquery-ui.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/jquery-ui.css">
         
         <!-- meanmenu CSS
         ============================================ -->
-        <link rel="stylesheet" href="css/meanmenu.min.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/meanmenu.min.css">
         
         <!-- animate CSS
         ============================================ -->
-        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/animate.css">
         
         <!-- nivo slider CSS
         ============================================ -->
-        <link rel="stylesheet" href="lib/nivo-slider/css/nivo-slider.css" type="text/css" />
-        <link rel="stylesheet" href="lib/nivo-slider/css/preview.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/lib/nivo-slider/css/nivo-slider.css" type="text/css" />
+        <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/lib/nivo-slider/css/preview.css" type="text/css" media="screen" />
         
         <!-- style CSS
         ============================================ -->
@@ -51,11 +51,11 @@
         
         <!-- responsive CSS
         ============================================ -->
-        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/responsive.css">
         
         <!-- modernizr JS
         ============================================ -->        
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="<?php bloginfo('template_url') ?>/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
