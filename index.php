@@ -3,8 +3,8 @@
         <div class="slider-area home-two-slider">
             <div class="preview-2">
                 <div id="nivoslider" class="slides">	
-                    <a href="#"><img src="img/slider/slider-3.jpg" alt="" title="#slider-1-caption1"/></a>
-                    <a href="#"><img src="img/slider/slider-4.jpg" alt="" title="#slider-1-caption1"/></a>
+                    <a href="#"><img src="<?php bloginfo('template_url') ?>/img/slider/slider-3.jpg" alt="" title="#slider-1-caption1"/></a>
+                    <a href="#"><img src="<?php bloginfo('template_url') ?>/img/slider/slider-4.jpg" alt="" title="#slider-1-caption1"/></a>
                 </div> 
                 <div id="slider-1-caption1" class="nivo-html-caption nivo-caption">
                     <div class="banner-content slider-1">
@@ -26,7 +26,7 @@
                                 <div class="col-md-4 col-sm-4">
                                     <div class="service-item">
                                         <div class="item-image">
-                                            <img src="img/icon/16.png" alt="">
+                                            <img src="<?php bloginfo('template_url') ?>/img/icon/16.png" alt="">
                                         </div>
                                         <h4>Mountain Huts</h4>
                                     </div>
@@ -34,7 +34,7 @@
                                 <div class="col-md-4 col-sm-4">
                                     <div class="service-item">
                                         <div class="item-image">
-                                            <img src="img/icon/17.png" alt="">
+                                            <img src="<?php bloginfo('template_url') ?>/img/icon/17.png" alt="">
                                         </div>
                                         <h4>Orienteering</h4>
                                     </div>
@@ -42,7 +42,7 @@
                                 <div class="col-md-4 col-sm-4">
                                     <div class="service-item">
                                         <div class="item-image">
-                                            <img src="img/icon/13.png" alt="">
+                                            <img src="<?php bloginfo('template_url') ?>/img/icon/13.png" alt="">
                                         </div>
                                         <h4>Hiking Trails</h4>
                                     </div>
@@ -50,7 +50,7 @@
                                 <div class="col-md-4 col-sm-4">
                                     <div class="service-item">
                                         <div class="item-image">
-                                            <img src="img/icon/14.png" alt="">
+                                            <img src="<?php bloginfo('template_url') ?>/img/icon/14.png" alt="">
                                         </div>
                                         <h4>Advenrture Camping</h4>
                                     </div>
@@ -58,7 +58,7 @@
                                 <div class="col-md-4 col-sm-4">
                                     <div class="service-item">
                                         <div class="item-image">
-                                            <img src="img/icon/15.png" alt="">
+                                            <img src="<?php bloginfo('template_url') ?>/img/icon/15.png" alt="">
                                         </div>
                                         <h4>Day Hike</h4>
                                     </div>
@@ -66,7 +66,7 @@
                                 <div class="col-md-4 col-sm-4">
                                     <div class="service-item">
                                         <div class="item-image">
-                                            <img src="img/icon/18.png" alt="">
+                                            <img src="<?php bloginfo('template_url') ?>/img/icon/18.png" alt="">
                                         </div>
                                         <h4>Winter Camping</h4>
                                     </div>
@@ -108,7 +108,7 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-4">
                         <div class="single-portfolio">
-                            <a href="#"><img src="img/portfolio/9.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo('template_url') ?>/img/portfolio/9.jpg" alt=""></a>
                             <div class="portfolio-text effect-bottom">
                                 <h4><a href="#">Day Hike</a></h4>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -122,7 +122,7 @@
                             </div>
                         </div>
                         <div class="single-portfolio">
-                            <a href="#"><img src="img/portfolio/13.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo('template_url') ?>/img/portfolio/13.jpg" alt=""></a>
                             <div class="portfolio-text effect-bottom">
                                 <h4><a href="#">Tint Camping</a></h4>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -138,7 +138,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4">
                         <div class="single-portfolio">
-                            <a href="#"><img src="img/portfolio/10.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo('template_url') ?>/img/portfolio/10.jpg" alt=""></a>
                             <div class="portfolio-text">
                                 <h4><a href="#">Hiking Trails</a></h4>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -152,7 +152,7 @@
                             </div>
                         </div>
                         <div class="single-portfolio">
-                            <a href="#"><img src="img/portfolio/14.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo('template_url') ?>/img/portfolio/14.jpg" alt=""></a>
                             <div class="portfolio-text">
                                 <h4><a href="#">Canoe Camping</a></h4>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -168,7 +168,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4">
                         <div class="single-portfolio">
-                            <a href="#"><img src="img/portfolio/11.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo('template_url') ?>/img/portfolio/11.jpg" alt=""></a>
                             <div class="portfolio-text effect-bottom">
                                 <h4><a href="#">Mountain Huts</a></h4>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -182,7 +182,7 @@
                             </div>
                         </div>
                         <div class="single-portfolio">
-                            <a href="#"><img src="img/portfolio/15.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo('template_url') ?>/img/portfolio/15.jpg" alt=""></a>
                             <div class="portfolio-text effect-bottom">
                                 <h4><a href="#">Bicycle Camping</a></h4>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -198,7 +198,7 @@
                     </div>
                     <div class="col-md-3 hidden-sm">
                         <div class="single-portfolio">
-                            <a href="#"><img src="img/portfolio/12.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo('template_url') ?>/img/portfolio/12.jpg" alt=""></a>
                             <div class="portfolio-text">
                                 <h4><a href="#">Orienteering</a></h4>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -212,7 +212,7 @@
                             </div>
                         </div>
                         <div class="single-portfolio">
-                            <a href="#"><img src="img/portfolio/16.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo('template_url') ?>/img/portfolio/16.jpg" alt=""></a>
                             <div class="portfolio-text">
                                 <h4><a href="#">Winter Camping</a></h4>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -247,8 +247,8 @@
                         <div class="single-fun-wrapper">
                             <div class="single-fun-factor">
                                 <div class="fun-border-left"></div>
-                                <img src="img/icon/7.png" class="primary-img" alt="">
-                                <img src="img/icon/7-hover.png" class="secondary-img" alt="">
+                                <img src="<?php bloginfo('template_url') ?>/img/icon/7.png" class="primary-img" alt="">
+                                <img src="<?php bloginfo('template_url') ?>/img/icon/7-hover.png" class="secondary-img" alt="">
                                 <h4><span class="counter">5670</span> M</h4>
                                 <h5>Cyliing Track</h5>
                                 <div class="fun-border-right"></div>
@@ -259,8 +259,8 @@
                         <div class="single-fun-wrapper">
                             <div class="single-fun-factor">
                                 <div class="fun-border-left"></div>
-                                <img src="img/icon/8.png" class="primary-img" alt="">
-                                <img src="img/icon/8-hover.png" class="secondary-img" alt="">
+                                <img src="<?php bloginfo('template_url') ?>/img/icon/8.png" class="primary-img" alt="">
+                                <img src="<?php bloginfo('template_url') ?>/img/icon/8-hover.png" class="secondary-img" alt="">
                                 <h4><span class="counter">480</span> M</h4>
                                 <h5>Distance Coverd</h5>
                                 <div class="fun-border-right"></div>
@@ -271,8 +271,8 @@
                         <div class="single-fun-wrapper">
                             <div class="single-fun-factor">
                                 <div class="fun-border-left"></div>
-                                <img src="img/icon/9.png" class="primary-img" alt="">
-                                <img src="img/icon/9-hover.png" class="secondary-img" alt="">
+                                <img src="<?php bloginfo('template_url') ?>/img/icon/9.png" class="primary-img" alt="">
+                                <img src="<?php bloginfo('template_url') ?>/img/icon/9-hover.png" class="secondary-img" alt="">
                                 <h4><span class="counter">5670</span> M</h4>
                                 <h5>Altitude Hiked</h5>
                                 <div class="fun-border-right"></div>
@@ -283,8 +283,8 @@
                         <div class="single-fun-wrapper">
                             <div class="single-fun-factor">
                                 <div class="fun-border-left"></div>
-                                <img src="img/icon/10.png" class="primary-img" alt="">
-                                <img src="img/icon/10-hover.png" class="secondary-img" alt="">
+                                <img src="<?php bloginfo('template_url') ?>/img/icon/10.png" class="primary-img" alt="">
+                                <img src="<?php bloginfo('template_url') ?>/img/icon/10-hover.png" class="secondary-img" alt="">
                                 <h4><span class="counter">180</span> KM</h4>
                                 <h5>Sailing Distance</h5>
                                 <div class="fun-border-right"></div>
@@ -295,8 +295,8 @@
                         <div class="single-fun-wrapper">
                             <div class="single-fun-factor">
                                 <div class="fun-border-left"></div>
-                                <img src="img/icon/11.png" class="primary-img" alt="">
-                                <img src="img/icon/11-hover.png" class="secondary-img" alt="">
+                                <img src="<?php bloginfo('template_url') ?>/img/icon/11.png" class="primary-img" alt="">
+                                <img src="<?php bloginfo('template_url') ?>/img/icon/11-hover.png" class="secondary-img" alt="">
                                 <h4><span class="counter">570</span> Days</h4>
                                 <h5>Spent Adventure</h5>
                                 <div class="fun-border-right"></div>
@@ -307,8 +307,8 @@
                         <div class="single-fun-wrapper">
                             <div class="single-fun-factor">
                                 <div class="fun-border-left"></div>
-                                <img src="img/icon/12.png" class="primary-img" alt="">
-                                <img src="img/icon/12-hover.png" class="secondary-img" alt="">
+                                <img src="<?php bloginfo('template_url') ?>/img/icon/12.png" class="primary-img" alt="">
+                                <img src="<?php bloginfo('template_url') ?>/img/icon/12-hover.png" class="secondary-img" alt="">
                                 <h4><span class="counter">567</span> M</h4>
                                 <h5>Jugle Distance</h5>
                                 <div class="fun-border-right"></div>
@@ -354,7 +354,7 @@
                                     <div class="hover-effect">
                                         <div class="box-hover">   
                                             <a href="#">
-                                                <img src="img/sell/6.jpg" alt="">
+                                                <img src="<?php bloginfo('template_url') ?>/img/sell/6.jpg" alt="">
                                                 <span>Adventure camping</span>
                                             </a>
                                         </div>
@@ -362,7 +362,7 @@
                                     <div class="hover-effect">
                                         <div class="box-hover">       
                                             <a href="#" class="no-margin">
-                                                <img src="img/sell/8.jpg" alt="">
+                                                <img src="<?php bloginfo('template_url') ?>/img/sell/8.jpg" alt="">
                                                 <span>Winter camping</span>
                                             </a>
                                         </div>
@@ -372,7 +372,7 @@
                                     <div class="hover-effect">
                                         <div class="box-hover">   
                                             <a href="#">
-                                                <img src="img/sell/7.jpg" alt="">
+                                                <img src="<?php bloginfo('template_url') ?>/img/sell/7.jpg" alt="">
                                                 <span>Hiking trails</span>
                                             </a>
                                         </div>
@@ -380,7 +380,7 @@
                                     <div class="hover-effect">
                                         <div class="box-hover">           
                                             <a href="#" class="no-margin">
-                                                <img src="img/sell/9.jpg" alt="">
+                                                <img src="<?php bloginfo('template_url') ?>/img/sell/9.jpg" alt="">
                                                 <span>Mountyain huts</span>
                                             </a>
                                         </div>
@@ -390,7 +390,7 @@
                                     <div class="hover-effect">
                                         <div class="box-hover">   
                                             <a href="#">
-                                                <img src="img/sell/8.jpg" alt="">
+                                                <img src="<?php bloginfo('template_url') ?>/img/sell/8.jpg" alt="">
                                                 <span>Winter camping</span>
                                             </a>
                                         </div>
@@ -398,7 +398,7 @@
                                     <div class="hover-effect">
                                         <div class="box-hover">           
                                             <a href="#" class="no-margin">
-                                                <img src="img/sell/1.jpg" alt="">
+                                                <img src="<?php bloginfo('template_url') ?>/img/sell/1.jpg" alt="">
                                                 <span>Rail trip</span>
                                             </a>
                                         </div>
@@ -408,7 +408,7 @@
                                     <div class="hover-effect">
                                         <div class="box-hover">   
                                             <a href="#">
-                                                <img src="img/sell/9.jpg" alt="">
+                                                <img src="<?php bloginfo('template_url') ?>/img/sell/9.jpg" alt="">
                                                 <span>Mountain huts</span>
                                             </a>
                                         </div>
@@ -416,7 +416,7 @@
                                     <div class="hover-effect">
                                         <div class="box-hover">   
                                             <a href="#" class="no-margin">
-                                                <img src="img/sell/2.jpg" alt="">
+                                                <img src="<?php bloginfo('template_url') ?>/img/sell/2.jpg" alt="">
                                                 <span>Brazil trip</span>
                                             </a>
                                         </div>
