@@ -72,7 +72,7 @@
                                 <div class="row">
                                     <div class="col-md-4 col-sm-12">
                                         <div class="logo">
-                                            <a href="index.html"><img src="img/logo/logo.png" alt="ADVENTURES"></a>
+                                            <a href="index.html"><img src="<?php bloginfo('template_url') ?>/img/logo/logo.png" alt="ADVENTURES"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-8 hidden-sm hidden-xs">

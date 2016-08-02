@@ -17,47 +17,6 @@
                                         <h1 class="title2 hidden-xs">GEAR STYLES</h1>
                                         <h2 class="sub-title">The right tour for the</h2>
                                         <h2 class="sub-title">right <span>traveller</span></h2>
-                                        <form action="#" id="banner-searchbox" class="hidden-xs">
-                                            <div class="adventure-cat">
-                                                <select name="category" class="search-adventure">
-                                                    <option>Select Adventure</option>
-                                                    <option>Bungee jumping</option>
-                                                    <option>Bicycle touring</option>
-                                                    <option>Jungle tourism</option>
-                                                    <option>Shark tourism</option>
-                                                    <option>Mountain biking</option>
-                                                    <option>Mountaineering</option>
-                                                    <option>Rock Adventure</option>
-                                                </select>
-                                            </div>
-                                            <div class="adventure-cat destination">
-                                                <select name="destination" class="search-adventure">
-                                                    <option>Select Your Destination</option>
-                                                    <option>Madagascar</option>
-                                                    <option>Botswana</option>
-                                                    <option>Canada, Alaska</option>
-                                                    <option>Antarctica</option>
-                                                    <option>Swaziland</option>
-                                                    <option>Ethiopia</option>
-                                                    <option>Tanzania</option>
-                                                </select>
-                                            </div>
-                                            <div class="adventure-cat floatright">
-                                                <select name="date" class="search-adventure">
-                                                    <option>Select Date</option>
-                                                    <option>1-4-2016</option>
-                                                    <option>5-9-2016</option>
-                                                    <option>3-10-2016</option>
-                                                    <option>15-2-2017</option>
-                                                    <option>22-7-2017</option>
-                                                    <option>10-8-2017</option>
-                                                    <option>7-11-2017</option>
-                                                    <option>9-12-2017</option>
-                                                </select>
-                                            </div>
-                                            <div class="clearfix"></div>
-                                            <button type="submit" id="btn-search-category" class="button-yellow">SEARCH</button>
-                                        </form>
                                     </div>
                                 </div>
                             </div>
@@ -531,7 +490,7 @@
                                 <div class="row">
                                     <div class="col-md-6 col-sm-6">
                                         <div class="blog-image box-hover">
-                                            <a href="blog-details.html"><img src="img/blog/1.jpg" alt=""></a>
+                                            <a href="blog-details.html"><img src="<?php bloginfo('template_url') ?>/img/blog/1.jpg" alt=""></a>
                                             <div class="date-time">
                                                 <span class="date">10</span>
                                                 <span class="month">AUG</span>
@@ -560,7 +519,7 @@
                                 <div class="row">
                                     <div class="col-md-6 col-sm-6">
                                         <div class="blog-image box-hover">
-                                            <a href="blog-details.html"><img src="img/blog/2.jpg" alt=""></a>
+                                            <a href="blog-details.html"><img src="<?php bloginfo('template_url') ?>/img/blog/2.jpg" alt=""></a>
                                             <div class="date-time">
                                                 <span class="date">10</span>
                                                 <span class="month">AUG</span>
