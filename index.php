@@ -3,36 +3,28 @@
  <!--Slider Area Start-->
         <div class="slider-area home-two-slider">
             <div class="preview-2">
-                <div id="nivoslider" class="slides">	
-                    <ul class="slides">
-                            <li>
-                                <?php $banner1= get_field('banner_1', 6);
-                                 $image= wp_get_attachment_image_src($banner1, 'banner') ?>
-                                <img src="<?php echo $image[0]; ?>" alt="Slide 1">
-                                <div class="slider-caption">
-                                    <h2><a href="blog-single.html">When a Doctor’s Visit Is a Guilt Trip</a></h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                                </div>
-                            </li>
-                            <li>
-                                <?php $banner1= get_field('banner_2', 6);
-                                 $image= wp_get_attachment_image_src($banner1, 'banner') ?>
-                                <img src="<?php echo $image[0]; ?>" alt="Slide 1">
-                                <div class="slider-caption">
-                                    <h2><a href="blog-single.html">Unlocking the scrolls of Herculaneum</a></h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                                </div>
-                            </li>
-                            <li>
-                                <?php $banner1= get_field('banner_3', 6);
-                                 $image= wp_get_attachment_image_src($banner1, 'banner') ?>
-                                <img src="<?php echo $image[0]; ?>" alt="Slide 1">
-                                <div class="slider-caption">
-                                    <h2><a href="blog-single.html">Corin Sworn wins Max Mara Art Prize</a></h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                                </div>
-                            </li>
-                        </ul> <!-- /.slides -->
+                <div id="nivoslider" class="slides">
+                    <a href="#">
+                        <?php 
+                            $banner1= get_field('banner_1', 15);
+                            $image= wp_get_attachment_image_src($banner1, 'banner');
+                        ?>  
+                        <img src="<?php echo $image[0]; ?>" alt="Slide 1" title="#slider-1-caption1">
+                    </a> 
+                    <a href="#">
+                        <?php 
+                            $banner1= get_field('banner_2', 15);
+                            $image= wp_get_attachment_image_src($banner2, 'banner');
+                        ?>  
+                        <img src="<?php echo $image[0]; ?>" alt="Slide 2" title="#slider-1-caption1">
+                    </a>
+                    <a href="#">
+                        <?php 
+                            $banner1= get_field('banner_3', 15);
+                            $image= wp_get_attachment_image_src($banner3, 'banner');
+                        ?>  
+                        <img src="<?php echo $image[0]; ?>" alt="Slide 3" title="#slider-1-caption1">
+                    </a>    
                 </div> 
                 <div id="slider-1-caption1" class="nivo-html-caption nivo-caption">
                     <div class="banner-content slider-1">
