@@ -1,5 +1,5 @@
 <!--Footer Widget Area Start-->
-        <div class="footer-widget-area">
+        <div class="footer-widget-area footer-widget-two">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-4">
@@ -93,7 +93,7 @@
         </div>
         <!--End of Footer Widget Area-->
         <!--Footer Area Start-->
-        <div class="footer-area">
+        <div class="footer-area footer-two">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-5 col-sm-12">
@@ -117,53 +117,53 @@
         <!--End of Footer Area-->
         
         
-		<!-- jquery
-		============================================ -->		
+        <!-- jquery
+        ============================================ -->        
         <script src="js/vendor/jquery-1.12.3.min.js"></script>
         
-		<!-- bootstrap JS
-		============================================ -->		
+        <!-- bootstrap JS
+        ============================================ -->        
         <script src="js/bootstrap.min.js"></script>
         
         <!-- nivo slider js
-		============================================ -->       
-		<script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
-		<script src="lib/nivo-slider/home.js" type="text/javascript"></script>
-		
-		<!-- wow JS
-		============================================ -->		
+        ============================================ -->       
+        <script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+        <script src="lib/nivo-slider/home.js" type="text/javascript"></script>
+        
+        <!-- wow JS
+        ============================================ -->        
         <script src="js/wow.min.js"></script>
         
-		<!-- meanmenu JS
-		============================================ -->		
+        <!-- meanmenu JS
+        ============================================ -->        
         <script src="js/jquery.meanmenu.js"></script>
         
-		<!-- owl.carousel JS
-		============================================ -->		
+        <!-- owl.carousel JS
+        ============================================ -->        
         <script src="js/owl.carousel.min.js"></script>
         
-		<!-- price-slider JS
-		============================================ -->		
+        <!-- price-slider JS
+        ============================================ -->        
         <script src="js/jquery-price-slider.js"></script>
         
-		<!-- scrollUp JS
-		============================================ -->		
+        <!-- scrollUp JS
+        ============================================ -->        
         <script src="js/jquery.scrollUp.min.js"></script>
         
-		<!-- Waypoints JS
-		============================================ -->		
+        <!-- Waypoints JS
+        ============================================ -->        
         <script src="js/waypoints.min.js"></script>
         
-		<!-- Counter Up JS
-		============================================ -->		
+        <!-- Counter Up JS
+        ============================================ -->        
         <script src="js/jquery.counterup.min.js"></script>
         
-		<!-- plugins JS
-		============================================ -->		
+        <!-- plugins JS
+        ============================================ -->        
         <script src="js/plugins.js"></script>
         
-		<!-- main JS
-		============================================ -->		
+        <!-- main JS
+        ============================================ -->        
         <script src="js/main.js"></script>
     </body>
 </html>

@@ -3,58 +3,58 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Home One || Adventures</title>
+        <title>Home Two || Adventures</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-		<!-- favicon
-		============================================ -->		
+        <!-- favicon
+        ============================================ -->        
         <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-		
-		<!-- Google Fonts
-		============================================ -->		
+        
+        <!-- Google Fonts
+        ============================================ -->        
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800' rel='stylesheet' type='text/css'>
-	   
-		<!-- Bootstrap CSS
-		============================================ -->		
+       
+        <!-- Bootstrap CSS
+        ============================================ -->        
         <link rel="stylesheet" href="css/bootstrap.min.css">
         
-		<!-- Fontawsome CSS
-		============================================ -->
+        <!-- Fontawsome CSS
+        ============================================ -->
         <link rel="stylesheet" href="css/font-awesome.min.css">
         
-		<!-- owl.carousel CSS
-		============================================ -->
+        <!-- owl.carousel CSS
+        ============================================ -->
         <link rel="stylesheet" href="css/owl.carousel.css">
         
-		<!-- jquery-ui CSS
-		============================================ -->
+        <!-- jquery-ui CSS
+        ============================================ -->
         <link rel="stylesheet" href="css/jquery-ui.css">
         
-		<!-- meanmenu CSS
-		============================================ -->
+        <!-- meanmenu CSS
+        ============================================ -->
         <link rel="stylesheet" href="css/meanmenu.min.css">
         
-		<!-- animate CSS
-		============================================ -->
+        <!-- animate CSS
+        ============================================ -->
         <link rel="stylesheet" href="css/animate.css">
         
         <!-- nivo slider CSS
-		============================================ -->
-		<link rel="stylesheet" href="lib/nivo-slider/css/nivo-slider.css" type="text/css" />
-		<link rel="stylesheet" href="lib/nivo-slider/css/preview.css" type="text/css" media="screen" />
+        ============================================ -->
+        <link rel="stylesheet" href="lib/nivo-slider/css/nivo-slider.css" type="text/css" />
+        <link rel="stylesheet" href="lib/nivo-slider/css/preview.css" type="text/css" media="screen" />
         
-		<!-- style CSS
-		============================================ -->
+        <!-- style CSS
+        ============================================ -->
         <link rel="stylesheet" href="style.css">
         
-		<!-- responsive CSS
-		============================================ -->
+        <!-- responsive CSS
+        ============================================ -->
         <link rel="stylesheet" href="css/responsive.css">
         
-		<!-- modernizr JS
-		============================================ -->		
+        <!-- modernizr JS
+        ============================================ -->        
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -63,7 +63,7 @@
         <![endif]-->
         
         <!--Header Area Start-->
-        <header>
+        <header class="header-two">
             <div class="header-top">
                 <div class="container">
                     <div class="row">
@@ -92,7 +92,7 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                         <div class="col-md-8 col-sm-6 col-xs-12">
                             <div class="header-top-right">
                                 <div class="login">
@@ -175,7 +175,7 @@
                                                                         <img src="img/mega-b-4.jpg" alt="">
                                                                     </a>
                                                                 </span>
-                                                                <span>											
+                                                                <span>                                          
                                                                     <a href="#" class="mega-title">Edgeworks Climbing</a>
                                                                     <a href="#">Indoor climbing</a>
                                                                     <a href="#">Rock climbing</a>
@@ -184,7 +184,7 @@
                                                                     <a href="#">Traditional climbing</a>
                                                                     <a href="#">Free solo climbing</a>
                                                                 </span>
-                                                                <span>											
+                                                                <span>                                          
                                                                     <a href="#" class="mega-title">Academic Mountain</a>
                                                                     <a href="#">Fold and thrust belt</a>
                                                                     <a href="#">Fault-block mountain</a>
@@ -193,7 +193,7 @@
                                                                     <a href="#">Subaqueous volcano</a>
                                                                     <a href="#">Complex volcano</a>
                                                                 </span>
-                                                                <span>											
+                                                                <span>                                          
                                                                     <a href="#" class="mega-title">Adventure Camping</a>
                                                                     <a href="#">Bicycle Camping</a>
                                                                     <a href="#">Canoe Camping</a>
@@ -277,11 +277,11 @@
                                         <li><a href="contact.html">CONTACT</a></li>
                                     </ul>
                                 </nav>
-                            </div>					
+                            </div>                  
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Mobile Menu Area end -->
+            <!-- Mobile Menu Area end --> 
         </header>
         <!--End of Header Area-->
