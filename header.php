@@ -47,7 +47,7 @@
         
         <!-- style CSS
         ============================================ -->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/style.css">
         
         <!-- responsive CSS
         ============================================ -->
