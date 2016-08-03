@@ -15,7 +15,11 @@
         ============================================ -->        
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800' rel='stylesheet' type='text/css'>
-       
+        <!-- WP header
+        ============================================ --> 
+        <?php wp_head(); ?>
+
+
         <!-- Bootstrap CSS
         ============================================ -->        
         <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/bootstrap.min.css">
@@ -86,73 +90,6 @@
                                                         'menu_id' => 'nav'
                                                     ));
                                                     ?>
-                                                    <!--<li class="drop-down"><a href="index.html">HOME</a>
-                                                        <ul class="sub-menu">
-                                                            <li><a href="#" class="mega-title">Homepages</a></li>
-                                                            <li><a href="index-2.html">Homepage Version 2</a></li>
-                                                            <li><a href="index-3.html">Homepage Version 3</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="shop-grid-no-sidebar.html">Destination</a>
-                                                        <div class="megamenu">
-                                                            <div class="megamenu-list clearfix">
-                                                                <span class="border-hover">
-                                                                    <a href="#" class="mega-image">
-                                                                        <img src="img/mega-b-4.jpg" alt="">
-                                                                    </a>
-                                                                </span>
-                                                                <span>                                          
-                                                                    <a href="#" class="mega-title">Edgeworks Climbing</a>
-                                                                    <a href="#">Indoor climbing</a>
-                                                                    <a href="#">Rock climbing</a>
-                                                                    <a href="#">Climbing competition</a>
-                                                                    <a href="#">Top rope climbing</a>
-                                                                    <a href="#">Traditional climbing</a>
-                                                                    <a href="#">Free solo climbing</a>
-                                                                </span>
-                                                                <span>                                          
-                                                                    <a href="#" class="mega-title">Academic Mountain</a>
-                                                                    <a href="#">Fold and thrust belt</a>
-                                                                    <a href="#">Fault-block mountain</a>
-                                                                    <a href="#">Mountain ranges</a>
-                                                                    <a href="#">Sedimentary</a>
-                                                                    <a href="#">Subaqueous volcano</a>
-                                                                    <a href="#">Complex volcano</a>
-                                                                </span>
-                                                                <span>                                          
-                                                                    <a href="#" class="mega-title">Adventure Camping</a>
-                                                                    <a href="#">Bicycle Camping</a>
-                                                                    <a href="#">Canoe Camping</a>
-                                                                    <a href="#">Reenact camping</a>
-                                                                    <a href="#">Winter camping</a>
-                                                                    <a href="#">Dry camping</a>
-                                                                    <a href="#">Backpacking</a>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li><a href="shop-grid-no-sidebar.html">Travel</a></li>
-                                                    <li class="drop-down"><a href="index.html">Pages</a>
-                                                        <ul class="sub-menu">
-                                                            <li><a href="#" class="mega-title">Other Pages</a></li>
-                                                            <li><a href="about.html">About Us</a></li>
-                                                            <li><a href="shop-grid-no-sidebar.html">Shop No Sidebar</a></li>
-                                                            <li><a href="shop-grid-with-sidebar.html">Shop with Sidebar</a></li>
-                                                            <li><a href="shop-list.html">Shop List</a></li>
-                                                            <li><a href="product-details.html">Product Details 1</a></li>
-                                                            <li><a href="product-details-2.html">Product Details 2</a></li>
-                                                            <li><a href="signin.html">Sign In</a></li>
-                                                            <li><a href="404.html">404 Error</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="drop-down"><a href="blog-1.html">BLOG</a>
-                                                        <ul class="sub-menu">
-                                                            <li><a href="#" class="mega-title">Blog Pages</a></li>
-                                                            <li><a href="blog-2.html">Blog Page 2</a></li>
-                                                            <li><a href="blog-details.html">Blog Details Page</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="contact.html">Contact Us</a></li>-->
                                                 </ul>
                                             </nav>
                                         </div> 

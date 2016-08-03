@@ -115,6 +115,7 @@
         </div>
         <!--End of Footer Area-->
         
+
         
         <!-- jquery
         ============================================ -->        
@@ -164,5 +165,10 @@
         <!-- main JS
         ============================================ -->        
         <script src="<?php bloginfo('template_url') ?>/js/main.js"></script>
+
+        <!-- WP footer
+        ============================================ --> 
+        <?php wp_footer(); ?>
+        
     </body>
 </html>
