@@ -374,76 +374,62 @@
             <div class="col-md-12">
                 <div class="section-title title-two text-center">
                     <div class="title-border">
-                        <h1>Latest <span>Blog Posts</span></h1>
+                            <h1>Latest <span>Blog Posts</span></h1>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor turpis, pulvinar varius dui<br> id, convallis iaculis eros. Praesent porta lacinia elementum.</p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor turpis, pulvinar varius dui<br> id, convallis iaculis eros. Praesent porta lacinia elementum.</p>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="blog-carousel">
-                <div class="col-md-6">
-                    <div class="single-blog hover-effect">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="blog-image box-hover">
-                                    <a href="blog-details.html"><img src="<?php bloginfo('template_url') ?>/img/blog/1.jpg" alt=""></a>
-                                    <div class="date-time">
-                                        <span class="date">10</span>
-                                        <span class="month">AUG</span>
+            <div class="row">
+                <div class="blog-carousel">
+                <?php
+                  $args = array(
+                    'post_type' => 'blog',
+                    'post_per_page' => 2,
+                    );
+                  $query = new WP_Query($args);
+                  if ($query ->have_posts()) {
+                    while ($query->have_posts()){ $query->the_post(); ?>
+                    <div class="col-md-6">
+                        <div class="single-blog hover-effect">
+
+                            <div class="row">
+                                
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="blog-image box-hover">
+                                        <a href="#"><?php the_post_thumbnail("blog"); ?></a>
+                                        <div class="date-time">
+                                            <span class="date">10</span>
+                                            <span class="month">AUG</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 margin-left">
+                                    <div class="blog-text">
+                                        <h4><a src="#"><?php the_title(); ?></a></h4>
+                                        <p><?php the_excerpt(); ?></p>
+                                        <a href="blog-details.html" class="button-one button-yellow">Learn More</a>
+                                        <div class="blog-link">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                            <a href="#"><i class="fa fa-rss"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-6 margin-left">
-                                <div class="blog-text">
-                                    <h4><a href="blog-details.html">What is travel? We answer the big, burning question.....</a></h4>
-                                    <p>The question of What Travel Is is interesting, but more for what it tells you about the people doing the asking. The question of What Travel Is is interesting, but more for what it tells you about the people doing the asking.</p>
-                                    <a href="blog-details.html" class="button-one button-yellow">Learn More</a>
-                                    <div class="blog-link">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-rss"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>    
-                </div>
-                <div class="col-md-6">
-                    <div class="single-blog hover-effect no-margin">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="blog-image box-hover">
-                                    <a href="blog-details.html"><img src="<?php bloginfo('template_url') ?>/img/blog/2.jpg" alt=""></a>
-                                    <div class="date-time">
-                                        <span class="date">10</span>
-                                        <span class="month">AUG</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 margin-left">
-                                <div class="blog-text">
-                                    <h4><a href="blog-details.html">What is travel? We answer the big, burning question.....</a></h4>
-                                    <p>The question of What Travel Is is interesting, but more for what it tells you about the people doing the asking. The question of What Travel Is is interesting, but more for what it tells you about the people doing the asking.</p>
-                                    <a href="blog-details.html" class="button-one button-yellow">Learn More</a>
-                                    <div class="blog-link">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-rss"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>    
+                        </div>    
+                    </div>
+                    <?php } ?>
+                <?php } ?>
+                    
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!--End of Blog Area-->
+    ?>
+    <!--End of Blog Area-->
 
-<?php get_footer(); ?>
+    <?php get_footer(); ?>
