@@ -126,27 +126,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="section-title title-two text-center">
-                            <div class="title-border">
-                                <h1>Browse by <span>Hiking &amp; Camping</span></h1>
-                            </div>    
-                            <p>Everyone loves to travel, but not everyone loves to travel the same way. G Adventures Travel Styles gather trips of a feather<br> together so you can spend less time searching and more time dreaming about where you’ll go.</p>
-                        </div>
+                        <?php while(have_posts()) { the_post(); ?>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-3 col-sm-4">
                         <div class="single-portfolio">
-                            <a href="#"><img src="<?php bloginfo('template_url') ?>/img/portfolio/9.jpg" alt=""></a>
+                            <?php the_post_thumbnail('banner'); ?>
                             <div class="portfolio-text effect-bottom">
-                                <h4><a href="#">Day Hike</a></h4>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <h4><a href="#"><?php the_title(); ?></a></h4>
+                                <p><?php the_time('j F Y') ?></p>
                                 <div class="portfolio-link">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-rss"></i></a>
+                                    <?php comments_number('0 comentarios', '1 comentario', '%comentarios'); ?>
                                 </div>
                             </div>
                         </div>
