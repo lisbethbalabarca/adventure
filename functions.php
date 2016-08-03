@@ -10,6 +10,7 @@
 		);
 		//funcion para crear tamaño de imagenes
 		add_image_size('banner', 1600, 987, true);
+		add_image_size('tour', 285, 422, true);
 		//registramos los menus
 		register_nav_menus(array(
 			'Principal' => __('Principal')

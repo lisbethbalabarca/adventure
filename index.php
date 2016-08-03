@@ -140,7 +140,7 @@
                                     while ($query->have_posts()){ $query->the_post(); ?>
                                         <div class="col-md-3 col-sm-4">
                                             <div class="single-portfolio">
-                                                <a href="#"><?php the_post_thumbnail("thumbnail"); ?></a>
+                                                <a href="#"><?php the_post_thumbnail("tour"); ?></a>
                                                 <div class="portfolio-text effect-bottom">
                                                     <h4><a src="#"><?php the_title(); ?></a></h4>
                                                     <p><?php the_excerpt(); ?></p>
