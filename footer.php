@@ -7,9 +7,8 @@
                             <h4>Contact Us</h4>
                             <div class="footer-widget-list">
                                 <ul>
-                                    <li class="icon send">19 Charlotte Street, Toronto Ontario, M5V 2H5</li>
-                                    <li class="icon envelope">admin@power-boosts.com</li>
-                                    <li class="icon phone">+ 001 666 8989 55</li>
+                                    <li class="icon envelope"><?php the_field('email', 'options'); ?></li>
+                                    <li class="icon phone"><?php the_field('telefono', 'options'); ?></li>
                                 </ul>
                             </div>
                         </div>
