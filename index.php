@@ -17,6 +17,13 @@
                             $image= wp_get_attachment_image_src($banner2, 'banner');
                         ?>  
                         <img src="<?php echo $image[0]; ?>" alt=" " title="#slider-1-caption1">
+                    </a>
+                    <a href="#">
+                        <?php 
+                            $banner3= get_field('banner_3', 15);
+                            $image= wp_get_attachment_image_src($banner3, 'banner');
+                        ?>  
+                        <img src="<?php echo $image[0]; ?>" alt=" " title="#slider-1-caption1">
                     </a>   
                 </div> 
                 <div id="slider-1-caption1" class="nivo-html-caption nivo-caption">
@@ -119,22 +126,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <?php while(have_posts()) { the_post(); ?>
+                       
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3 col-sm-4">
-                        <div class="single-portfolio">
-                            <?php the_post_thumbnail('banner'); ?>
-                            <div class="portfolio-text effect-bottom">
-                                <h4><a href="#"><?php the_title(); ?></a></h4>
-                                <p><?php the_time('j F Y') ?></p>
-                                <div class="portfolio-link">
-                                    <?php comments_number('0 comentarios', '1 comentario', '%comentarios'); ?>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-md-3 col-sm-4">
                         <div class="single-portfolio">
                             <a href="#"><img src="<?php bloginfo('template_url') ?>/img/portfolio/10.jpg" alt=""></a>
