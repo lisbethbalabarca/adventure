@@ -26,4 +26,9 @@
 		return $classes;
 	}
 	add_filter('nav_menu_css_class' , 'active_menu');
+
+	function new_excerpt_length($length) {
+    	return 200;
+	}
+	add_filter('excerpt_length', 'new_excerpt_length');
 ?>
