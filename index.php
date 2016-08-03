@@ -130,24 +130,28 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3 col-sm-4">
-                        <div class="single-portfolio">
+                   
                               <?php
                                 $args = array(
-                                    'post_type' => 'noticias',
-                                    'post_per_page' => 3
+                                    'post_type' => 'tour',
+                                    'post_per_page' => 4
                                 );
                                 $query = new WP_Query($args);
                                 if ($query -> have_posts()) {
-                                    while ($query->have_posts()){ $query-> the_post(); ?>
-
+                                    while ($query->have_posts()){ $query->the_post(); ?>
+                             <div class="col-md-3 col-sm-4">
+                                 <div class="single-portfolio">
+                            <a href="#"><?php the_post_thumbnail("thumbnail"); ?></a>
                                 <h4><?php the_title(); ?></h4>
                                 <p><?php the_time('j F Y') ?></p>
                                 <div class="portfolio-link">
                                     <?php comments_number('0 comentarios', '1 comentario', '%comentarios'); ?>   
                                 </div>
-                            </div>
-                        </div>s
+                                   </div>
+                        </div>
+                                <?php }
+                                } ?>
+                         
                     </div>
                     <div class="col-md-3 col-sm-4">
                         <div class="single-portfolio">
