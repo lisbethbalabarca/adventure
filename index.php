@@ -141,9 +141,10 @@
                                     while ($query->have_posts()){ $query->the_post(); ?>
                              <div class="col-md-3 col-sm-4">
                                  <div class="single-portfolio">
-                            <a href="#"><?php the_post_thumbnail("thumbnail"); ?></a>
-                                <h4><?php the_title(); ?></h4>
-                                <p><?php the_time('j F Y') ?></p>
+                                <a href="#"><?php the_post_thumbnail("thumbnail"); ?></a>
+                                <div class="portfolio-text effect-bottom">
+                                    <h4><?php the_title(); ?></h4>
+                                    <p><?php the_time('j F Y') ?></p>
                                 <div class="portfolio-link">
                                     <?php comments_number('0 comentarios', '1 comentario', '%comentarios'); ?>   
                                 </div>
