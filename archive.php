@@ -142,18 +142,19 @@
                         </div>
                     </div>
                     <div class="col-md-9">
+                    	<?php while(have_posts()){ the_post();  ?>
                         <div class="single-blog-post">
                             <div class="single-blog-post-img">
-                                <a href="#"><img src="img/blog/large-1.jpg" alt=""></a>
+                                <a href="#"><?php the_post_thumbnail('blog_details') ?></a>
                                 <div class="date-time">
-                                    <span class="date">10</span>
+                                    <span class="date"><?php the_time('d'); ?></span>
                                     <span class="month">AUG</span>
                                 </div>
                             </div>
                             <div class="single-blog-post-text">
-                                <h4><a href="blog-details.html">How's the weather? Best times to travel.....</a></h4>
+                                <h4><a href="blog-details.html"> <?php the_title(); ?></a></h4>
                                 <div class="author-comments">
-                                    <span><i class="fa fa-user"></i>ALICE HINES</span>
+                                    <span><i class="fa fa-user"></i><?php the_author(); ?></span>
                                     <span><i class="fa fa-comment"></i>15 Comments</span>
                                 </div>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
@@ -169,87 +170,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="single-blog-post">
-                            <div class="single-blog-post-img">
-                                <a href="#"><img src="img/blog/large-2.jpg" alt=""></a>
-                                <div class="date-time">
-                                    <span class="date">19</span>
-                                    <span class="month">Oct</span>
-                                </div>
-                            </div>
-                            <div class="single-blog-post-text">
-                                <h4><a href="blog-details.html">It has survived not only five centuries.....</a></h4>
-                                <div class="author-comments">
-                                    <span><i class="fa fa-user"></i>JHON RUSSEL</span>
-                                    <span><i class="fa fa-comment"></i>15 Comments</span>
-                                </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                            </div>
-                            <div class="blog-button-links">
-                                <a href="blog-details.html" class="blog-button">Learn More</a>
-                                <div class="blog-links">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-rss"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-blog-post">
-                            <div class="single-blog-post-img">
-                                <a href="#"><img src="img/blog/large-3.jpg" alt=""></a>
-                                <div class="date-time">
-                                    <span class="date">03</span>
-                                    <span class="month">Jan</span>
-                                </div>
-                            </div>
-                            <div class="single-blog-post-text">
-                                <h4><a href="blog-details.html">Lorem Ipsum is simply dummy text of printing.....</a></h4>
-                                <div class="author-comments">
-                                    <span><i class="fa fa-user"></i>KATHIE BLOSSOM</span>
-                                    <span><i class="fa fa-comment"></i>15 Comments</span>
-                                </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                            </div>
-                            <div class="blog-button-links">
-                                <a href="blog-details.html" class="blog-button">Learn More</a>
-                                <div class="blog-links">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-rss"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-blog-post">
-                            <div class="single-blog-post-img">
-                                <a href="#"><img src="img/blog/large-4.jpg" alt=""></a>
-                                <div class="date-time">
-                                    <span class="date">30</span>
-                                    <span class="month">Jul</span>
-                                </div>
-                            </div>
-                            <div class="single-blog-post-text">
-                                <h4><a href="blog-details.html">Lorem Ipsum has been the industry's of.....</a></h4>
-                                <div class="author-comments">
-                                    <span><i class="fa fa-user"></i>ALICE HINES</span>
-                                    <span><i class="fa fa-comment"></i>15 Comments</span>
-                                </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                            </div>
-                            <div class="blog-button-links">
-                                <a href="blog-details.html" class="blog-button">Learn More</a>
-                                <div class="blog-links">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-rss"></i></a>
-                                </div>
-                            </div>
-                        </div>
+                        <?php } ?>
                         <div class="clearfix"></div>
                         <div class="pagination-content">
                             <div class="pagination-button">

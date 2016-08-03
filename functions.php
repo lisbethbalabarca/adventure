@@ -5,6 +5,7 @@
 				'labels' => array('name' => 'Tours', 'singular_name' => 'tour' ),
 				'public' => true,
 				'rewrite' => array('slug' => 'tour'),
+				'has_archive' => true,
 				'supports' => array('title' , 'editor' , 'author' , 'thumbnail' )
 			)
 		);
@@ -13,6 +14,7 @@
 				'labels' => array('name' => 'Blog', 'singular_name' => 'articulo' ),
 				'public' => true,
 				'rewrite' => array('slug' => 'blog'),
+				'has_archive' => true,
 				'supports' => array('title' , 'editor' , 'author' , 'thumbnail' )
 			)
 		);
@@ -20,6 +22,7 @@
 		add_image_size('banner', 1600, 987, true);
 		add_image_size('tour', 285, 422, true);
 		add_image_size('blog', 270, 300, true);
+		add_image_size('blog_details', 938, 450, true);
 		//registramos los menus
 		register_nav_menus(array(
 			'Principal' => __('Principal')
