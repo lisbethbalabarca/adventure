@@ -132,16 +132,19 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-4">
                         <div class="single-portfolio">
-                            <a href="#"><img src="<?php bloginfo('template_url') ?>/img/portfolio/10.jpg" alt=""></a>
-                            <div class="portfolio-text">
-                                <h4><a href="#">Hiking Trails</a></h4>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                              <?php
+                                $args = array(
+                                    'post_type' => 'noticias',
+                                    'post_per_page' => 3
+                                );
+                                $query = new WP_Query($args);
+                                if ($query -> have_posts()) {
+                                    while ($query->have_posts()){ $query-> the_post(); ?>
+
+                                <h4><?php the_title(); ?></h4>
+                                <p><?php the_time('j F Y') ?></p>
                                 <div class="portfolio-link">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-rss"></i></a>
+                                    <?php comments_number('0 comentarios', '1 comentario', '%comentarios'); ?>   
                                 </div>
                             </div>
                         </div>s
