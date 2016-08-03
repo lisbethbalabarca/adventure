@@ -91,14 +91,14 @@
               <?php
               $args = array(
                 'post_type' => 'tour',
-                'post_per_page' => 4
+                'posts_per_page' => 4
                 );
               $query = new WP_Query($args);
               if ($query -> have_posts()) {
                 while ($query->have_posts()){ $query->the_post(); ?>
                 <div class="col-md-3 col-sm-4">
                     <div class="single-portfolio">
-                        <a href="#"><?php the_post_thumbnail("tour"); ?></a>
+                        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail("tour"); ?></a>
                         <div class="portfolio-text effect-bottom">
                             <h4><a src="#"><?php the_title(); ?></a></h4>
                             <p><?php the_excerpt(); ?></p>
@@ -236,7 +236,7 @@
                                 
                                 <div class="col-md-6 col-sm-6">
                                     <div class="blog-image box-hover">
-                                        <a href="#"><?php the_post_thumbnail("blog"); ?></a>
+                                        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail("blog"); ?></a>
                                         <div class="date-time">
                                             <span class="date">10</span>
                                             <span class="month">AUG</span>
@@ -246,7 +246,7 @@
                                 </div>
                                 <div class="col-md-6 col-sm-6 margin-left">
                                     <div class="blog-text">
-                                        <h4><a src="#"><?php the_title(); ?></a></h4>
+                                        <h4><a src="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
                                         <p><?php the_excerpt(); ?></p>
                                         <a href="blog-details.html" class="button-one button-yellow">Learn More</a>
                                         <div class="blog-link">
