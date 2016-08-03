@@ -4,7 +4,15 @@
 			'tour', array(
 				'labels' => array('name' => 'Tours', 'singular_name' => 'tour' ),
 				'public' => true,
-				'rewrite' => array('slug' => 'noticia'),
+				'rewrite' => array('slug' => 'tour'),
+				'supports' => array('title' , 'editor' , 'author' , 'thumbnail' )
+			)
+		);
+		register_post_type(
+			'blog', array(
+				'labels' => array('name' => 'Blog', 'singular_name' => 'articulo' ),
+				'public' => true,
+				'rewrite' => array('slug' => 'blog'),
 				'supports' => array('title' , 'editor' , 'author' , 'thumbnail' )
 			)
 		);
