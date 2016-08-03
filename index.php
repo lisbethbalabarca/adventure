@@ -153,38 +153,8 @@
                                 <?php }
                                 } ?>
                     </div>
-                    <div class="col-md-3 col-sm-4">
-                        <div class="single-portfolio">
-                            <a href="#"><img src="<?php bloginfo('template_url') ?>/img/portfolio/11.jpg" alt=""></a>
-                            <div class="portfolio-text effect-bottom">
-                                <h4><a href="#">Mountain Huts</a></h4>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                <div class="portfolio-link">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-rss"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 hidden-sm">
-                        <div class="single-portfolio">
-                            <a href="#"><img src="<?php bloginfo('template_url') ?>/img/portfolio/12.jpg" alt=""></a>
-                            <div class="portfolio-text">
-                                <h4><a href="#">Orienteering</a></h4>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                <div class="portfolio-link">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-rss"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
+                    
                 </div>
             </div>
         </div>
