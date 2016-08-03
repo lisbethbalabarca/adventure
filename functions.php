@@ -15,6 +15,14 @@
 		register_nav_menus(array(
 			'Principal' => __('Principal')
 		));
+		
+		//AGREGAR OPCTION PAGES DAEBAKK!!! 
+		acf_add_options_page(array(
+			'page_title'  => 'Configuracion de pagina',
+			'menu_title'  => 'Configuración',
+			'menu_slug'  => 'Configuración',
+			'redirect'   => false
+		));
 	}
 
 	add_theme_support('post-thumbnails');
@@ -32,4 +40,5 @@
     	return 10;
 	}
 	add_filter('excerpt_length', 'new_excerpt_length');
+
 ?>
