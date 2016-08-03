@@ -1,4 +1,4 @@
-        <?php get_header(); ?>
+<?php get_header(); ?>
         <!--Banner Area Start-->
         <div class="banner-area details-one">
             <div class="container">
@@ -255,5 +255,4 @@
             </div>
         </div>
         <!--End of Trip Pricing Area-->
->
         <?php get_footer(); ?>
