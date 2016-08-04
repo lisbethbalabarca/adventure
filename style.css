@@ -1060,7 +1060,6 @@ button#btn-search-category:hover, .newsletter-content button:hover, .button-one:
 /*  10. Blog Area
 /*----------------------------------------*/
 .blog-area {
-    background: #edecec none repeat scroll 0 0;
     padding-top: 100px;
 }
 .blog-area .title-border:after {background: rgba(0, 0, 0, 0) url("img/icon/title-icon-2.png") no-repeat scroll 0 0}
