@@ -224,7 +224,7 @@
                 <?php
                   $args = array(
                     'post_type' => 'blog',
-                    'post_per_page' => 2,
+                    'post_per_page' => 2
                     );
                   $query = new WP_Query($args);
                   if ($query ->have_posts()) {
