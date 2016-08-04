@@ -44,7 +44,7 @@
                             </div>
                             <div class="about-text">     
                                 <p><?php the_field('texto_post' , 'options') ?></p>
-                                
+                                <a href="#" class="button-yellow">Why Trtavel with Adventures?</a>
                             </div>     
                         </div>    
                     </div>
