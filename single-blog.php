@@ -6,9 +6,9 @@
                     <div class="col-md-12">
                         <div class="section-title text-center">
                             <div class="title-border">
-                                <h1>Adventure <span>Blog</span></h1>
+                                <h1><span><?php the_title(); ?></span></h1>
                             </div>    
-                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor turpis, pulvinar varius dui<br> id, convallis iaculis eros. Praesent porta lacinia elementum.</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -24,27 +24,34 @@
         </div>
         <!--End of Banner Area-->
         <!--Blog Post Area Start-->
-        <div class="blog-post-area section-padding">
+        <div class="blog-post-area section-padding" style="background-image: url('<?php the_post_thumbnail("medium"); ?>'">
             <div class="container">
                 <div class="row">
+                    <?php 
+                    $args= array(
+                        'post_type' => 'blog',
+                        'posts_per_page' => 1
+                    );
+                    $query = new WP_Query($args);
+                    if ($query->have_posts()) {
+                        while ($query->have_posts()){ $query->the_post(); ?>
                     <div class="col-md-12">
                         <div class="single-blog-post blog-post-details">
                             <div class="single-blog-post-img">
                                 <a href="#"><img src="img/blog/large-1.jpg" alt=""></a>
                                 <div class="date-time">
-                                    <span class="date">10</span>
-                                    <span class="month">AUG</span>
+                                    <span class="date"><?php the_time('d') ?></span>
+                                    <span class="month"><?php the_time('M') ?></span>
                                 </div>
                             </div>
                             <div class="single-blog-post-text">
-                                <h4>How's the weather? Best times to travel.....</h4>
+                                <h4><?php the_title(); ?></h4>
                                 <div class="author-comments">
-                                    <span><i class="fa fa-user"></i>ALICE HINES</span>
-                                    <span><i class="fa fa-comment"></i>15 Comments</span>
+                                    <span><i class="fa fa-user"></i><?php the_author(); ?></span>
+                                    <span><i class="fa fa-comment"></i><?php comments_number('0 comentarios','1 comentario','% comentarios'); ?></span>
                                 </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions.</p>
-                                <p class="dark-bold">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown and printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                <p><?php the_content(); ?></p>
+                                
                             </div>
                             <div class="blog-button-links">
                                 <span class="blog-tags">Tags: <a href="#">Store,</a> <a href="#">Women,</a> <a href="#">Dress,</a> <a href="#">Fashion</a></span>
@@ -121,7 +128,9 @@
                                 </div>
                             </form>
                         </div>
-                    </div>       
+                    </div>
+                <?php }
+                } ?>         
                 </div>
             </div>
         </div>
