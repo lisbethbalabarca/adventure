@@ -17,7 +17,7 @@
             <div class="col-md-12 text-center">
                 <ul class="breadcrumb">
                     <li><a href="<?php echo home_url(); ?>">Home</a></li>
-                    <li><a href="<?php echo tour_url(); ?>">Home</a></li>
+                    <!--// falta el q lleva al tour-->
                 </ul>
             </div>
         </div>
