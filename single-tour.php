@@ -1,13 +1,14 @@
 <?php get_header(); ?>
 
 <!--Banner Area Start-->
-<div class="banner-area details-one">
+<div class="banner-area details-one" style="background-image: url('<?php the_field('imagen_introduccion' , 'options') ?>'">
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title text-center">
                     <div class="title-border">
-                        <h1>Experience <span>Nepal</span></h1>
+                        <h1><span><?php the_title(); ?></span></h1>
                     </div>    
                     <p class="text-white">The right tour for the right traveller</p>
                 </div>

@@ -19,35 +19,35 @@
                 </a> 
                 <?php } ?>
 
-            </div> 
+        </div> 
 
 
 
-            <?php $c = 0;
-            while (have_rows('banner', 'options')) { the_row();
-                $c++; ?>
-                <div id="slider-<?php echo $c; ?>-caption<?php echo $c; ?>" class="nivo-html-caption nivo-caption">
-                    <div class="banner-content slider-1">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="text-content">
-                                        <h1 class="title1"><?php the_sub_field('titulo') ?></h1>
-                                        
-                                        <h2 class="sub-title"><span><?php the_sub_field('descripcion') ?></span></h2>
-                                    </div>
+        <?php $c = 0;
+        while (have_rows('banner', 'options')) { the_row();
+            $c++; ?>
+            <div id="slider-<?php echo $c; ?>-caption<?php echo $c; ?>" class="nivo-html-caption nivo-caption">
+                <div class="banner-content slider-1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="text-content">
+                                    <h1 class="title1"><?php the_sub_field('titulo') ?></h1>
+                                    
+                                    <h2 class="sub-title"><span><?php the_sub_field('descripcion') ?></span></h2>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>	
-                <?php } ?>
+                </div>
+            </div>	
+        <?php } ?>
 
 
 
 
-            </div>
-        </div>
+    </div>
+</div>
    <?php } ?>
     <!--End of Slider Area-->
     <!--Service About Area Start-->
