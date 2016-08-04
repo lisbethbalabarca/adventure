@@ -133,10 +133,10 @@
             </div>
         </div>
         <div class="row">
+            <?php 
+                while (have_rows('activity', 'options')) { the_row();
+            ?>
             <div class="col-md-2 col-sm-3">
-                <?php 
-                    while (have_rows('activity', 'options')) { the_row();
-                ?>
                 <div class="single-fun-wrapper">
                     <div class="single-fun-factor">
                         <div class="fun-border-left"></div>
@@ -154,9 +154,9 @@
                         <h5><?php the_sub_field('title') ?></h5>
                         <div class="fun-border-right"></div>
                     </div>
-                </div>
-                <?php } ?>   
+                </div>  
             </div>
+            <?php } ?> 
         </div>
     </div>
 </div>
