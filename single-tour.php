@@ -26,32 +26,37 @@
     </div>
 </div>
 <!--End of Banner Area-->
-<div class="service-about-area text-center hidden-xs" style="background-image: url('<?php the_field('imagen_post' , 'options') ?>');">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="single-service-two">
-                            <div class="row">
-                            
-                            </div>
+<div class="trip-information">
+    <div class="container">
+        <div class="row">
+        <?php 
+        $query = new WP_Query($args);
+        if ($query->have_posts()) {
+            while ($query->have_posts()){ $query->the_post(); ?>
+                <div class="col-md-6">
+                    <div class="trip-info-left-text">
+                        <div class="section-title text-center">
+                            <div class="title-border">
+                                <h1><span><?php the_title(); ?></span></h1>
+                            </div>   
+                            <p><?php the_content(); ?> </p>   
+                        </div>  
+                        <div class="clearfix"></div>
+                        <div class="details-social-link">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-rss"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="about-container section-padding">
-                            <div class="section-title title-two">
-                                <div class="title-border">
-                                    <h1><span><?php the_field('titulo_post' , 'options') ?></span></h1>
-                                </div>
-                            </div>
-                            <div class="about-text">     
-                                <p><?php the_field('texto_post' , 'options') ?></p>
-                                
-                            </div>     
-                        </div>    
-                    </div>
                 </div>
-            </div>
+            <?php }
+            } ?>
         </div>
+    </div>
+</div>
+        <!--End of Trip Information-->
 <!--Trip Inclution Start-->
 <div class="trip-inclution section-padding">
     <div class="container">

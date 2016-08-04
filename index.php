@@ -100,7 +100,7 @@
                     <div class="single-portfolio">
                         <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail("tour"); ?></a>
                         <div class="portfolio-text effect-bottom">
-                            <h4><a src="#"><?php the_title(); ?></a></h4>
+                            <h4><a src="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
                             <p><?php the_excerpt(); ?></p>
                             <div class="portfolio-link">
                                 <?php comments_number('0 comentarios', '1 comentario', '%comentarios'); ?>   

@@ -142,7 +142,7 @@
                         </div>
                     </div>
                     <div class="col-md-9">
-                    	<?php while(have_posts()){ the_post();  ?>
+                    		
                         <div class="single-blog-post">
                             <div class="single-blog-post-img">
                                 <a href="#"><?php the_post_thumbnail('blog_details') ?></a>
