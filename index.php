@@ -145,7 +145,11 @@
                             $image= wp_get_attachment_image_src($activity, 'activity');
                         ?>  
                         <img src="<?php echo $image[0]; ?>" class="primary-img" alt="">
-                        <img src="<?php bloginfo('template_url') ?>/img/icon/7-hover.png" class="secondary-img" alt="">
+                        <?php 
+                            $hover= get_sub_field('hover');
+                            $image= wp_get_attachment_image_src($hover, 'activity');
+                        ?>  
+                        <img src="<?php echo $image[0]; ?>" class="secondary-img" alt="">
                         <h4><span class="counter"><?php the_sub_field('score') ?></span> M</h4>
                         <h5><?php the_sub_field('title') ?></h5>
                         <div class="fun-border-right"></div>
