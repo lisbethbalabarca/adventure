@@ -1411,7 +1411,7 @@ button#btn-search-category:hover, .newsletter-content button:hover, .button-one:
 }
 .fun-factor-two.fun-factor-area::before {background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0}
 .fun-factor-area.fun-factor-two::after {
-    background: rgba(0, 0, 0, 0) url("img/banner/transparent-2.png") no-repeat scroll center top / cover ;
+    background: rgba(0, 0, 0, 0) url("img/banner/transparent-2-gray.png") no-repeat scroll center top / cover ;
     bottom: 0;
     transform: rotate(0deg);
 }
