@@ -194,8 +194,8 @@
                                     <div class="blog-image box-hover">
                                         <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail("blog"); ?></a>
                                         <div class="date-time">
-                                            <span class="date">10</span>
-                                            <span class="month">AUG</span>
+                                            <span class="date"><?php the_time('d'); ?></span>
+                                            <span class="month"><?php the_time('M'); ?></span>
 
                                         </div>
                                     </div>
@@ -204,7 +204,7 @@
                                     <div class="blog-text">
                                         <h4><a src="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
                                         <p><?php the_excerpt(); ?></p>
-                                        <a href="blog-details.html" class="button-one button-yellow">Learn More</a>
+                                        <a href="<?php the_permalink(); ?>" class="button-one button-yellow">Learn More</a>
                                         <div class="blog-link">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
                                             <a href="#"><i class="fa fa-twitter"></i></a>
