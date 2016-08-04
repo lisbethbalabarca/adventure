@@ -50,6 +50,19 @@
                             <a href="#"><i class="fa fa-rss"></i></a>
                         </div>
                     </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about-container section-padding">
+                            <div class="section-title title-two">
+                                <div class="title-border">
+                                    <h1><span><?php the_field('titulo_post' , 'options') ?></span></h1>
+                                </div>
+                            </div>
+                            <div class="about-text">     
+                                <p><?php the_field('texto_post' , 'options') ?></p>
+                                <a href="#" class="button-yellow">Why Trtavel with Adventures?</a>
+                            </div>     
+                        </div>    
+                    </div>
                 </div>
             <?php }
             } ?>
@@ -94,7 +107,7 @@
                 </div>
             </div>
             <div class="col-md-4 hidden-sm">
-                <div class="include-item no-margin">
+                <div class="include-item no-margin">    
                     <div class="include-icon">
                         <i class="fa fa-home"></i>
                     </div>
