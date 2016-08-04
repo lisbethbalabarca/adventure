@@ -224,7 +224,6 @@
             </div>
         </div>
     </div>
-    ?>
     <!--End of Blog Area-->
 
     <?php get_footer(); ?>
