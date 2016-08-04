@@ -26,7 +26,7 @@
     </div>
 </div>
 <!--End of Banner Area-->
-<div class="service-about-area text-center hidden-xs" style="background-image: url('<?php the_field('imagen_introduccion' , 'options') ?>');">
+<div class="service-about-area text-center hidden-xs" style="background-image: url('<?php the_field('imagen_post' , 'options') ?>');">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
@@ -40,11 +40,11 @@
                         <div class="about-container section-padding">
                             <div class="section-title title-two">
                                 <div class="title-border">
-                                    <h1><span><?php the_field('titulo_introduccion' , 'options') ?></span></h1>
+                                    <h1><span><?php the_field('titulo_post' , 'options') ?></span></h1>
                                 </div>
                             </div>
                             <div class="about-text">     
-                                <p><?php the_field('texto_introduccion' , 'options') ?></p>
+                                <p><?php the_field('texto_post' , 'options') ?></p>
                                 
                             </div>     
                         </div>    
