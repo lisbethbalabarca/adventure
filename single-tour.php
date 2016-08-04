@@ -16,14 +16,40 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <ul class="breadcrumb">
-                    <li><a href="index.html">Home</a></li>
-                    <li>Adventures</li>
+                    <li><a href="<?php echo home_url(); ?>">Home</a></li>
+                    <li><a href="<?php echo tour_url(); ?>">Home</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
 <!--End of Banner Area-->
+<div class="service-about-area text-center hidden-xs" style="background-image: url('<?php the_field('imagen_introduccion' , 'options') ?>');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="single-service-two">
+                            <div class="row">
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about-container section-padding">
+                            <div class="section-title title-two">
+                                <div class="title-border">
+                                    <h1><span><?php the_field('titulo_introduccion' , 'options') ?></span></h1>
+                                </div>
+                            </div>
+                            <div class="about-text">     
+                                <p><?php the_field('texto_introduccion' , 'options') ?></p>
+                                
+                            </div>     
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
 <!--Trip Inclution Start-->
 <div class="trip-inclution section-padding">
     <div class="container">
