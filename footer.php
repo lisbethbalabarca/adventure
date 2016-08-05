@@ -13,64 +13,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-2 hidden-sm">
-                        <div class="single-footer-widget">
-                            <h4>About Us</h4>
-                            <div class="footer-widget-list">
-                                <ul class="widget-lists">
-                                    <li><a href="#">Why Us</a></li>
-                                    <li><a href="#">Our trips</a></li>
-                                    <li><a href="#">Responsible Business</a></li>
-                                    <li><a href="#">Our History</a></li>
-                                    <li><a href="#">Our Core Values</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 hidden-md hidden-sm">
-                        <div class="single-footer-widget">
-                            <h4>Design Themes</h4>
-                            <div class="footer-widget-list">
-                                <ul class="widget-lists">
-                                    <li><a href="#">Africa</a></li>
-                                    <li><a href="#">Asia</a></li>
-                                    <li><a href="#">Central America</a></li>
-                                    <li><a href="#">Europe</a></li>
-                                    <li><a href="#">Middle East</a></li>
-                                    <li><a href="#">North America</a></li>
-                                    <li><a href="#">Oceania</a></li>
-                                    <li><a href="#">South America</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-3">
-                        <div class="single-footer-widget">
-                            <h4>Destinations</h4>
-                            <div class="footer-widget-list">
-                                <ul class="widget-lists">
-                                    <li><a href="#">Adventure</a></li>
-                                    <li><a href="#">Hiking and Camping</a></li>
-                                    <li><a href="#">Walking and Trekking</a></li>
-                                    <li><a href="#">Safari Trip</a></li>
-                                    <li><a href="#">Polar</a></li>
-                                    <li><a href="#">Sailing</a></li>
-                                    <li><a href="#">Climbing</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-5">
-                        <div class="single-footer-widget">
-                            <h4>Latest Tweets</h4>
-                            <div class="footer-widget-list twitter-news">
-                                <ul>
-                                    <li><a href="#">@Power-Boosts</a> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremq-ue laudantium. <a href="#">Power-Boosts.com/building-a-website</a></li>
-                                    <li><a href="#">@Power-Boosts</a> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremq-ue laudantium. <a href="#">Power-Boosts.com/building-a-website</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
