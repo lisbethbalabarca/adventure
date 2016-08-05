@@ -30,6 +30,10 @@
     <div class="blog-post-area section-padding" style="background-image: url('<?php the_post_thumbnail("medium"); ?>'">
         <div class="container">
             <div class="row">
+<<<<<<< HEAD
+=======
+
+>>>>>>> c2754e87c0cf3f6c26d720eb46b9520d0d70f1ae
                 <div class="col-md-12">
                     <div class="single-blog-post blog-post-details">
                         <div class="single-blog-post-img">
@@ -46,6 +50,10 @@
                                 <span><i class="fa fa-comment"></i><?php comments_number('0 comentarios','1 comentario','% comentarios'); ?></span>
                             </div>
                             <p><?php the_content(); ?></p>
+<<<<<<< HEAD
+=======
+
+>>>>>>> c2754e87c0cf3f6c26d720eb46b9520d0d70f1ae
                         </div>
                         <div class="blog-button-links">
                             <span class="blog-tags">Tags: <a href="#">Store,</a> <a href="#">Women,</a> <a href="#">Dress,</a> <a href="#">Fashion</a></span>
@@ -123,6 +131,7 @@
                         </form>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
