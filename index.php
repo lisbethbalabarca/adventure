@@ -71,7 +71,7 @@
                             </div>
                             <div class="about-text">     
                                 <p><?php the_field('texto_introduccion' , 'options') ?></p>
-                                <a href="<?php the_permalink(); ?>" class="button-yellow">Why Trtavel with Adventures?</a>
+                               
                             </div>     
                         </div>    
                     </div>
