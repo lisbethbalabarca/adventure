@@ -1,8 +1,17 @@
 <?php get_header(); ?>
         <!--Banner Area Start-->
         <div class="banner-area blog-one">
+             <?php 
+                    $args= array(
+                        'post_type' => 'blog',
+                        'posts_per_page' => 1
+                    );
+                    $query = new WP_Query($args);
+                    if ($query->have_posts()) {
+                        while ($query->have_posts()){ $query->the_post(); ?>
             <div class="container">
                 <div class="row">
+                    
                     <div class="col-md-12">
                         <div class="section-title text-center">
                             <div class="title-border">
@@ -27,14 +36,7 @@
         <div class="blog-post-area section-padding" style="background-image: url('<?php the_post_thumbnail("medium"); ?>'">
             <div class="container">
                 <div class="row">
-                    <?php 
-                    $args= array(
-                        'post_type' => 'blog',
-                        'posts_per_page' => 1
-                    );
-                    $query = new WP_Query($args);
-                    if ($query->have_posts()) {
-                        while ($query->have_posts()){ $query->the_post(); ?>
+                   
                     <div class="col-md-12">
                         <div class="single-blog-post blog-post-details">
                             <div class="single-blog-post-img">
@@ -129,10 +131,11 @@
                             </form>
                         </div>
                     </div>
-                <?php }
-                } ?>         
+                       
                 </div>
             </div>
+        <?php }
+        } ?>  
         </div>
         <!--End of Blog Post Area -->
         <?php get_footer(); ?>
