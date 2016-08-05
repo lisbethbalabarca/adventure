@@ -23,6 +23,8 @@
 		add_image_size('tour', 285, 422, true);
 		add_image_size('blog', 270, 300, true);
 		add_image_size('blog_details', 938, 450, true);
+		add_image_size('single', 1170, 456, true);
+
 		//registramos los menus
 		register_nav_menus(array(
 			'Principal' => __('Principal')

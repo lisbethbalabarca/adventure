@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!--Banner Area Start-->
-    <div class="banner-area details-one">
+    <div class="banner-area details-one" style="background-image: url('<?php the_field('imagen_introduccion' , 'options') ?>');">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -25,35 +25,35 @@
         </div>
     </div>
     <!--End of Banner Area-->
-    <div class="trip-information">
+    <div class="blog-post-area section-padding">
         <div class="container">
             <div class="row">
                 <?php while(have_posts()) { the_post(); ?>
-                <div class="col-md-6">
-                    <div class="trip-info-left-text">
-                        <div class="section-title text-center">
-                            <div class="title-border">
-                                <h1><span><?php the_title(); ?></span></h1>
-                            </div>   
-                            <p>hola mundo  <?php the_content(); ?></p>   
-                        </div>  
-                        <div class="clearfix"></div>
-                        <div class="details-social-link">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-rss"></i></a>
+                    <div class="col-md-12">
+                        <div class="single-blog-post blog-post-details">
+                            <div class="single-blog-post-img">
+                                <a href="#"><?php the_post_thumbnail('single') ?></a>
+                            </div>
+                            <div class="single-blog-post-text">
+                                <h4><?php the_title(); ?></h4>
+                                <p><?php the_content(); ?></p>
+                                
+                            </div>
+                            <div class="blog-button-links">
+                                <div class="blog-links">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-rss"></i></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <?php the_post_thumbnail('full') ?>
-                </div>
+                <?php }?>         
             </div>
         </div>
     </div>
-<?php } ?>
             <!--End of Trip Information-->
     <!--Trip Inclution Start-->
     <div class="trip-inclution section-padding">
