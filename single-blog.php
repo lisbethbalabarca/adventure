@@ -24,7 +24,7 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <ul class="breadcrumb">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="<?php the_permalink(); ?>">Home</a></li>
                             <li>Blog</li>
                         </ul>
                     </div>

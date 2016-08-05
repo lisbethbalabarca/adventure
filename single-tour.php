@@ -33,7 +33,7 @@
                     <div class="col-md-12">
                         <div class="single-blog-post blog-post-details">
                             <div class="single-blog-post-img">
-                                <a href="#"><?php the_post_thumbnail('single') ?></a>
+                                <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('single') ?></a>
                             </div>
                             <div class="single-blog-post-text">
                                 <h4><?php the_title(); ?></h4>

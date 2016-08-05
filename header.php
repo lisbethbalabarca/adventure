@@ -109,35 +109,14 @@
                             <div class="mobile-menu">
                                 <nav id="dropdown">
                                     <ul>
-                                        <li><a href="index.html">HOME</a>
-                                            <ul>
-                                                <li><a href="index-2.html">Home 2</a></li>
-                                                <li><a href="index-3.html">Home 3</a></li>
-                                            </ul>
+                                        <li><a href="<?php echo home_url(); ?>">Inicio</a>
                                         </li>
-                                        <li><a href="#">Shop</a>
-                                            <ul>
-                                                <li><a href="shop-grid-no-sidebar.html">Shop No Sidebar</a></li>
-                                                <li><a href="shop-grid-with-sidebar.html">Shop with Sidebar</a></li>
-                                                <li><a href="shop-list.html">Shop List</a></li>
-                                                <li><a href="product-details.html">Product Details 1</a></li>
-                                                <li><a href="product-details-2.html">Product Details 2</a></li>
-                                            </ul>
+                                        <li><a href="<?php echo home_url('blog'); ?>">Blog</a>
                                         </li>
-                                        <li><a href="blog-1.html">Blog</a>
-                                            <ul>
-                                                <li><a href="blog-2.html">Blog Page 2</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
+                                        <li><a href="<?php echo home_url('contact'); ?>">Contact Us</a>
                                         </li>
-                                        <li><a href="about.html">ABOUT</a>
-                                        <li><a href="#">PAGES</a>
-                                            <ul>
-                                                <li><a href="signin.html">Sign in</a></li>
-                                                <li><a href="404.html">404 error</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">CONTACT</a></li>
+                                        <li><a href="<?php echo home_url('about'); ?>">About Us</a>
+                                        <li><a href="<?php echo home_url('tour'); ?>">Tour</a></li>
                                     </ul>
                                 </nav>
                             </div>                  

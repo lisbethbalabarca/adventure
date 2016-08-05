@@ -10,7 +10,7 @@
             <?php $c = 0;
             while (have_rows('banner', 'options')) { the_row();
                 $c++; ?>
-                <a href="#">
+                <a href="<?php the_permalink(); ?>">
                     <?php 
                     $banner= get_sub_field('imagen');
                     $image= wp_get_attachment_image_src($banner, 'banner');
@@ -71,7 +71,7 @@
                             </div>
                             <div class="about-text">     
                                 <p><?php the_field('texto_introduccion' , 'options') ?></p>
-                                <a href="#" class="button-yellow">Why Trtavel with Adventures?</a>
+                                <a href="<?php the_permalink(); ?>" class="button-yellow">Why Trtavel with Adventures?</a>
                             </div>     
                         </div>    
                     </div>
