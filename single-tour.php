@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 
 <!--Banner Area Start-->
-    <div class="banner-area details-one" style="background-image: url('<?php the_field('imagen_introduccion' , 'options') ?>');">
+<?php while(have_posts()) { the_post(); ?>
+    <div class="banner-area details-one" style="background-image: url('<?php the_field('imagen') ?>');">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -24,6 +25,7 @@
             </div>
         </div>
     </div>
+<?php } ?>
     <!--End of Banner Area-->
     <div class="blog-post-area section-padding">
         <div class="container">
