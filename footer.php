@@ -1,5 +1,5 @@
 <!--Footer Widget Area Start-->
-        <div class="footer-widget-area footer-widget-two">
+        <div class="footer-widget-area footer-widget-two" style="background-image: url('<?php the_field('footer_image', 'options') ?>');">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-4">
