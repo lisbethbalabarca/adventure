@@ -40,7 +40,7 @@
                     <div class="col-md-12">
                         <div class="single-blog-post blog-post-details">
                             <div class="single-blog-post-img">
-                                <a href="#"><img src="img/blog/large-1.jpg" alt=""></a>
+                                <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail("single"); ?></a>
                                 <div class="date-time">
                                     <span class="date"><?php the_time('d') ?></span>
                                     <span class="month"><?php the_time('M') ?></span>
