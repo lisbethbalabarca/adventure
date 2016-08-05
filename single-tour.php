@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <!--Banner Area Start-->
 <?php while(have_posts()) { the_post(); ?>
     <div class="banner-area details-one" style="background-image: url('<?php the_field('imagen') ?>');">
@@ -109,6 +108,3 @@
     </div>
     <!--End of Trip Inclution-->
 <?php get_footer(); ?>
-
-
-
