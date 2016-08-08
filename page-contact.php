@@ -115,8 +115,8 @@
             <!-- google-map-area start -->
             <div class="google-map-area">
                 <!--  Map Section -->
-                <div id="map-canvas" class="map-area">
-                     
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3831.32039555119!2d-67.74697778513975!3d-16.203960088797785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f7327594f689d%3A0x68f03e31ff8b6765!2sYungas+Road!5e0!3m2!1ses!2spe!4v1470691751691" width="100%" height="750" frameborder="0" style="border:0" allowfullscreen></iframe> 
                 </div>
             </div>
             <div class="google-map-area">
