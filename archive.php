@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <ul class="breadcrumb">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="<?php the_permalink(); ?>">Home</a></li>
                     <li>Blog</li>
                 </ul>
             </div>
@@ -145,14 +145,14 @@
                 <?php while(have_posts()) { the_post(); ?>
                 <div class="single-blog-post">
                     <div class="single-blog-post-img">
-                        <a href="#"><?php the_post_thumbnail('blog_details') ?></a>
+                        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('blog_details') ?></a>
                         <div class="date-time">
                             <span class="date"><?php the_time('d'); ?></span>
                             <span class="month">AUG</span>
                         </div>
                     </div>
                     <div class="single-blog-post-text">
-                        <h4><a href="blog-details.html"> <?php the_title(); ?></a></h4>
+                        <h4><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h4>
                         <div class="author-comments">
                             <span><i class="fa fa-user"></i><?php the_author(); ?></span>
                             <span><i class="fa fa-comment"></i>15 Comments</span>
@@ -160,7 +160,7 @@
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
                     </div>
                     <div class="blog-button-links">
-                        <a href="blog-details.html" class="blog-button">Learn More</a>
+                        <a href="<?php the_permalink();?>" class="blog-button">Learn More</a>
                         <div class="blog-links">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
