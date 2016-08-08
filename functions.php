@@ -6,7 +6,7 @@
 				'public' => true,
 				'rewrite' => array('slug' => 'tour'),
 				'has_archive' => true,
-				'supports' => array('title' , 'editor' , 'author' , 'thumbnail' )
+				'supports' => array('title' , 'editor' , 'author' , 'thumbnail', 'comments' )
 			)
 		);
 		register_post_type(
@@ -15,7 +15,7 @@
 				'public' => true,
 				'rewrite' => array('slug' => 'blog'),
 				'has_archive' => true,
-				'supports' => array('title' , 'editor' , 'author' , 'thumbnail' )
+				'supports' => array('title' , 'editor' , 'author' , 'thumbnail', 'comments' )
 			)
 		);
 		//funcion para crear tamaño de imagenes
