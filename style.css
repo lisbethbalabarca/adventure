@@ -3290,11 +3290,14 @@ span.reply i {margin-right: 3px}
     width: 51%;
     z-index: 1;
 }
+.contact-row {
+    margin-left: 3.5%;
+}
 .contact-us-form::after {
     background: #edecec none repeat scroll 0 0;
     content: "";
     height: 100%;
-    left: 40%;
+    left: 43%;
     position: absolute;
     top: 0;
     transform: skewX(-12deg);
