@@ -27,7 +27,7 @@
     </div>
 <?php } ?>
     <!--End of Banner Area-->
-    <div class="blog-post-area section-padding" style="background-image: url('<?php the_post_thumbnail("medium"); ?>'">
+    <div class="blog-post-area section-padding" style="background-image: url('<?php the_post_thumbnail("medium"); ?>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

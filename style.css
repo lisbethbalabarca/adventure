@@ -3656,3 +3656,7 @@ textarea.yourmessage {
 #scrollUp:hover {
     background-color: #000;
 }
+
+#footer .disqus-footer__wrapper {
+  display: none !important;
+}
