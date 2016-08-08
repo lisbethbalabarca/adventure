@@ -1,7 +1,7 @@
 
        <?php get_header(); ?>
         <!--Banner Area Start-->
-        <div class="banner-area contact-banner" style="background-image: url('<?php the_field('imagen') ?>');">
+        <div class="banner-area contact-banner" style="background-image: url('<?php the_field('hero_image_contact') ?>');">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -113,6 +113,12 @@
         <!--Contact Form Start-->
         <div class="contact-form">
             <!-- google-map-area start -->
+            <div class="google-map-area">
+                <!--  Map Section -->
+                <div id="contacts" class="map-area">
+                    <div id="googleMap" style="width:100%;height:737px;filter: grayscale(100%);-webkit-filter: grayscale(100%);"></div>
+                </div>
+            </div>
             <div class="google-map-area">
                 <!--  Map Section -->
                 <div id="contacts" class="map-area">
