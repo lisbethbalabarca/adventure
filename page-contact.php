@@ -134,66 +134,12 @@
                         </div>               
                         <div class="contact-row">
                             <?php echo do_shortcode('[contact-form-7 id="109" title="Contact form 1"]'); ?>
-                            <div class="contact-column">
-                                <form action="mail.php" method="post">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <input name="f_name" type="text" class="form-box" placeholder="First name">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input name="l_name" type="text" class="form-box" placeholder="Last name">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input name="email" type="email" class="form-box" placeholder="Email">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input name="number" type="text" class="form-box" placeholder="Phone number">
-                                        </div>
-                                        <div class="col-md-12">
-                                            <textarea name="message" class="yourmessage" placeholder="Your message"></textarea>
-                                            <input type="submit" value="Send Message" class="submit-button"> 
-                                        </div>
-                                    </div>
-                                </form> 
-                            </div>
+                            
                         </div>
                     </div>       
                 </div>
             </div>
         </div>
         <!--End of Contact Form-->
-        <!--Partner Area Start-->
-        <div class="partner-area section-padding">
-            <div class="container">          
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-title text-center">
-                            <div class="title-border">
-                                <h1>Our <span>Partners</span></h1>
-                            </div>    
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="partner-carousel carousel-style-two">
-                        <div class="col-md-3">
-                            <a href="#"><img src="img/brand/1.jpg" alt=""></a>
-                        </div>
-                        <div class="col-md-3">
-                            <a href="#"><img src="img/brand/2.jpg" alt=""></a>
-                        </div>
-                        <div class="col-md-3">
-                            <a href="#"><img src="img/brand/3.jpg" alt=""></a>
-                        </div>
-                        <div class="col-md-3">
-                            <a href="#"><img src="img/brand/4.jpg" alt=""></a>
-                        </div>
-                        <div class="col-md-3">
-                            <a href="#"><img src="img/brand/1.jpg" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--End of Partner Area-->
+        
         <?php get_footer(); ?>
