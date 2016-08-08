@@ -32,6 +32,12 @@
         ============================================ -->
         <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/owl.carousel.css">
         
+        <!-- for map
+        ============================================ -->
+        <script type="text/javascript"
+          src="https://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyCdDVULAeX1xZcM1Gf885JpxZCSd0LqGjQ">
+        </script>
+
         <!-- jquery-ui CSS
         ============================================ -->
         <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/jquery-ui.css">

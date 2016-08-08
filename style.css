@@ -3309,11 +3309,18 @@ span.reply i {margin-right: 3px}
     top: 0;
     width: 100%;
 }
-.map {height: 737px; margin: 0 auto; width: 100%;}
+#map-canvas {
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    bottom: -200px; 
+    left: 0; 
+    right: 0; 
+    z-index: 0;
+}
 .contact-container {
-    width: 50%;
-    padding-right: 15px;
-    padding-left: 6.7%;
+    z-index: 100;
+    position: relative;
 }
 .contact-us-form {position: relative; z-index: 9;}
 .contact-form .section-title {margin-bottom: 22px}
