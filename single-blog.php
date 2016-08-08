@@ -46,6 +46,7 @@
                                 <span><i class="fa fa-comment"></i><?php comments_number('0 comentarios','1 comentario','% comentarios'); ?></span>
                             </div>
                             <p><?php the_content(); ?></p>
+                            <?php comments_template(); ?>
                         </div>
                         <div class="blog-button-links">
                             <div class="blog-links">
@@ -57,13 +58,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="blog-comments"> <?php comments_template(); ?>`
+                    <div class="blog-comments">
                         <h4 class="blog-title">User <span>Comments</span></h4>
                         <div class="single-comment">
                             <div class="author-image">
                                 <img src="img/blog/author-1.jpg" alt="">
                             </div>
-                            <div class="comment-text">
+                            <div class="comment-text" >
                                 <div class="author-info">
                                     <h4><a href="#">Watson</a></h4>
                                     <span class="reply"><a href="#"><i class="fa fa-reply"></i>Reply</a></span>
