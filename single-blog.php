@@ -30,10 +30,6 @@
     <div class="blog-post-area section-padding" style="background-image: url('<?php the_post_thumbnail("medium"); ?>'">
         <div class="container">
             <div class="row">
-<<<<<<< HEAD
-=======
-
->>>>>>> c2754e87c0cf3f6c26d720eb46b9520d0d70f1ae
                 <div class="col-md-12">
                     <div class="single-blog-post blog-post-details">
                         <div class="single-blog-post-img">
@@ -52,7 +48,6 @@
                             <p><?php the_content(); ?></p>
                         </div>
                         <div class="blog-button-links">
-                            <span class="blog-tags">Tags: <a href="#">Store,</a> <a href="#">Women,</a> <a href="#">Dress,</a> <a href="#">Fashion</a></span>
                             <div class="blog-links">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
@@ -62,7 +57,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="blog-comments">
+                    <div class="blog-comments"> <?php comments_template(); ?>`
                         <h4 class="blog-title">User <span>Comments</span></h4>
                         <div class="single-comment">
                             <div class="author-image">
