@@ -1,7 +1,7 @@
 
        <?php get_header(); ?>
         <!--Banner Area Start-->
-        <div class="banner-area contact-banner">
+        <div class="banner-area contact-banner" style="background-image: url('<?php the_field('imagen') ?>');">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -42,8 +42,8 @@
                             <div class="contact-image">
                                 <div class="contact-icon">
                                     <div class="icon-table-cell">
-                                        <img class="primary-img" src="img/icon/contact-1.png" alt="">
-                                        <img class="secondary-img" src="img/icon/contact-1-hover.png" alt="">
+                                        <img class="primary-img" src="<?php bloginfo('template_url') ?>/img/icon/contact-1.png" alt="">
+                                        <img class="secondary-img" src="<?php bloginfo('template_url') ?>/img/icon/contact-1-hover.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -60,8 +60,8 @@
                             <div class="contact-image">
                                 <div class="contact-icon">
                                     <div class="icon-table-cell">
-                                        <img class="primary-img" src="img/icon/contact-2.png" alt="">
-                                        <img class="secondary-img" src="img/icon/contact-2-hover.png" alt="">
+                                        <img class="primary-img" src="<?php bloginfo('template_url') ?>/img/icon/contact-2.png" alt="">
+                                        <img class="secondary-img" src="<?php bloginfo('template_url') ?>/img/icon/contact-2-hover.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -77,8 +77,8 @@
                             <div class="contact-image">
                                 <div class="contact-icon">
                                     <div class="icon-table-cell">
-                                        <img class="primary-img" src="img/icon/contact-3.png" alt="">
-                                        <img class="secondary-img" src="img/icon/contact-3-hover.png" alt="">
+                                        <img class="primary-img" src="<?php bloginfo('template_url') ?>/img/icon/contact-3.png" alt="">
+                                        <img class="secondary-img" src="<?php bloginfo('template_url') ?>/img/icon/contact-3-hover.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -94,8 +94,8 @@
                             <div class="contact-image">
                                 <div class="contact-icon">
                                     <div class="icon-table-cell">
-                                        <img class="primary-img" src="img/icon/contact-4.png" alt="">
-                                        <img class="secondary-img" src="img/icon/contact-4-hover.png" alt="">
+                                        <img class="primary-img" src="<?php bloginfo('template_url') ?>/img/icon/contact-4.png" alt="">
+                                        <img class="secondary-img" src="<?php bloginfo('template_url') ?>/img/icon/contact-4-hover.png" alt="">
                                     </div>
                                 </div>
                             </div>
