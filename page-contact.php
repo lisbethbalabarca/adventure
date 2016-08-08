@@ -115,14 +115,14 @@
             <!-- google-map-area start -->
             <div class="google-map-area">
                 <!--  Map Section -->
-                <div id="contacts" class="map-area">
-                    <div id="googleMap" style="width:100%;height:737px;filter: grayscale(100%);-webkit-filter: grayscale(100%);"></div>
+                <div id="map-canvas" class="map-area">
+                     
                 </div>
             </div>
             <div class="google-map-area">
                 <!--  Map Section -->
                 <div id="contacts" class="map-area">
-                    <div id="googleMap" style="width:100%;height:737px;filter: grayscale(100%);-webkit-filter: grayscale(100%);"></div>
+                    
                 </div>
             </div>
             <!-- google-map-area end -->

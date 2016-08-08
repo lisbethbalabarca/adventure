@@ -55,4 +55,11 @@
 	}
 	add_filter('excerpt_length', 'new_excerpt_length');
 
+	function my_acf_google_map_api( $api ){
+	
+	$api['key'] = 'AIzaSyCdDVULAeX1xZcM1Gf885JpxZCSd0LqGjQ';
+	
+	return $api;
+	}
+	add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
 ?>
