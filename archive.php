@@ -1,15 +1,15 @@
 <?php get_header(); ?>
 <!--End of Header Area-->
 <!--Banner Area Start-->
-<div class="banner-area blog-one">
+<div class="banner-area blog-one" style="background-image: url('<?php the_field('hero_tour') ?>');">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title text-center">
                     <div class="title-border">
-                        <h1>Adventure <span>Blog</span></h1>
+                        <h1><span><?php the_field('title_tour', 'options'); ?></span></h1>
                     </div>    
-                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor turpis, pulvinar varius dui<br> id, convallis iaculis eros. Praesent porta lacinia elementum.</p>
+                    <p class="text-white"><?php the_field('content_tour', 'options'); ?></p>
                 </div>
             </div>
         </div>

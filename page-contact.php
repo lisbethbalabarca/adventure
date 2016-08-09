@@ -7,9 +7,9 @@
                     <div class="col-md-12">
                         <div class="section-title text-center">
                             <div class="title-border">
-                                <h1>Contact <span>Us</span></h1>
+                                <h1><span><?php the_field('titulo_contact', 'options'); ?></span></h1>
                             </div>    
-                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor turpis, pulvinar varius dui<br> id, convallis iaculis eros. Praesent porta lacinia elementum.</p>
+                            <p class="text-white"><?php the_field('content_contact', 'options'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -49,9 +49,7 @@
                             </div>
                             <div class="contact-text">
                                 <h4>Address</h4>
-                                <p>Westminster Corporate Center<br>
-                                30A Vreeland Road<br>
-                                P.O. Box 6</p>
+                                <p><?php the_field('adress', 'options'); ?></p>
                             </div>
                         </div>
                     </div>
@@ -67,8 +65,7 @@
                             </div>
                             <div class="contact-text">
                                 <h4>Phone</h4>
-                                <p>+123 456 7890<br>
-                                +123 456 7890</p>
+                                <p><?php the_field('phone', 'options'); ?></p>
                             </div>
                         </div>
                     </div>
@@ -101,8 +98,7 @@
                             </div>
                             <div class="contact-text">
                                 <h4>Email</h4>
-                                <p>admin@power-boosts<br>
-                                admin@power-boosts.com</p>
+                                <p><?php the_field('mail', 'options'); ?></p>
                             </div>
                         </div>
                     </div>
