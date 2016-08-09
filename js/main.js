@@ -83,5 +83,9 @@
     Tooltip
 -------------------------------------- */
     $('[data-toggle="tooltip"]').tooltip(); 
+<<<<<<< HEAD
 })(jQuery); 
 
+=======
+})(jQuery); 
+>>>>>>> 6974fd5e6ee50cdd1d3b20987ffba5811fca33e7
