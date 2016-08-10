@@ -66,6 +66,7 @@
         <!-- modernizr JS
         ============================================ -->        
         <script src="<?php bloginfo('template_url') ?>/js/vendor/modernizr-2.8.3.min.js"></script>
+    
     </head>
     <body>
         
