@@ -36,7 +36,7 @@
         ============================================ -->
         <script type="text/javascript"
         src="https://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyCdDVULAeX1xZcM1Gf885JpxZCSd0LqGjQ">
-    </script>
+        </script>
 
         <!-- jquery-ui CSS
         ============================================ -->
@@ -70,10 +70,10 @@
         <!-- modernizr JS
         ============================================ -->        
         <script src="<?php bloginfo('template_url') ?>/js/vendor/modernizr-2.8.3.min.js"></script>
-    
+
     </head>
     <body>
-        
+
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
             <![endif]-->
@@ -134,10 +134,9 @@
                                 </div>
                             </div>
                         </div>
-<<<<<<< HEAD
                     </div>
                 </div>
-            </div>  
+            </header>  
             <!--End of Logo Mainmenu-->
             <!-- Mobile Menu Area start -->
             <div class="mobile-menu-area">
@@ -154,19 +153,13 @@
                                         <li><a href="<?php echo home_url('contact'); ?>">Contact Us</a>
                                         </li>
                                         <li><a href="<?php echo home_url('about'); ?>">About Us</a>
-                                        <li><a href="<?php echo home_url('tour'); ?>">Tour</a></li>
-                                    </ul>
-                                </nav>
-                            </div>                  
+                                            <li><a href="<?php echo home_url('tour'); ?>">Tour</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>                  
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Mobile Menu Area end -->
-            
-        </header>
-=======
-                        <!-- Mobile Menu Area end --> 
-                    </header>
->>>>>>> f64503e4f442c248d82117f10a6c98dcd16ff35c
+                <!-- Mobile Menu Area end -->
         <!--End of Header Area-->
