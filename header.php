@@ -68,6 +68,7 @@
         <script src="<?php bloginfo('template_url') ?>/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
+        
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -130,6 +131,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Mobile Menu Area end --> 
+            <!-- Mobile Menu Area end -->
+            
         </header>
         <!--End of Header Area-->
