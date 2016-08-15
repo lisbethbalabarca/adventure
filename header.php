@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Yungas Road</title>
+   
+    
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -73,7 +75,15 @@
     
     </head>
     <body>
-        
+     <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WJC8WS"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WJC8WS');</script>
+    <!-- End Google Tag Manager -->    
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
             <![endif]-->
@@ -134,39 +144,12 @@
                                 </div>
                             </div>
                         </div>
-<<<<<<< HEAD
+
                     </div>
                 </div>
             </div>  
             <!--End of Logo Mainmenu-->
-            <!-- Mobile Menu Area start -->
-            <div class="mobile-menu-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12">
-                            <div class="mobile-menu">
-                                <nav id="dropdown">
-                                    <ul>
-                                        <li><a href="<?php echo home_url(); ?>">Inicio</a>
-                                        </li>
-                                        <li><a href="<?php echo home_url('blog'); ?>">Blog</a>
-                                        </li>
-                                        <li><a href="<?php echo home_url('contact'); ?>">Contact Us</a>
-                                        </li>
-                                        <li><a href="<?php echo home_url('about'); ?>">About Us</a>
-                                        <li><a href="<?php echo home_url('tour'); ?>">Tour</a></li>
-                                    </ul>
-                                </nav>
-                            </div>                  
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Mobile Menu Area end -->
             
         </header>
-=======
-                        <!-- Mobile Menu Area end --> 
-                    </header>
->>>>>>> f64503e4f442c248d82117f10a6c98dcd16ff35c
+
         <!--End of Header Area-->
