@@ -27,7 +27,9 @@
 
 		//registramos los menus
 		register_nav_menus(array(
-			'Principal' => __('Principal')
+			'Principal' => __('Principal'),
+			'Mobile' => __('Mobile'),
+			'Flag' => __('Flag')
 		));
 		
 		//AGREGAR OPCTION PAGES DAEBAKK!!! 
@@ -62,6 +64,7 @@
 	return $api;
 	}
 	add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
+<<<<<<< HEAD
 
 	function copyright_oculto() { ?>
  
@@ -91,4 +94,16 @@ document.oncopy = addLink;
 }
  
 add_action( 'wp_head', 'copyright_oculto');
+=======
+	function language_selector_flags(){
+    $languages = icl_get_languages('skip_missing=0&orderby=code');
+    if(!empty($languages)){
+        foreach($languages as $l){
+            if(!$l['active']) echo '<a href="'.$l['url'].'">';
+            echo '<img src="'.$l['country_flag_url'].'" height="12" alt="'.$l['language_code'].'" width="18" />';
+            if(!$l['active']) echo '</a>';
+        }
+    }
+}
+>>>>>>> bf8a39beea0cd2f72fad8269145b8411e93648ce
 ?>

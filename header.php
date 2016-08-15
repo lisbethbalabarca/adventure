@@ -72,9 +72,10 @@
         <!-- modernizr JS
         ============================================ -->        
         <script src="<?php bloginfo('template_url') ?>/js/vendor/modernizr-2.8.3.min.js"></script>
-    
+
     </head>
     <body>
+<<<<<<< HEAD
      <!-- Google Tag Manager -->
     <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WJC8WS"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -84,12 +85,20 @@
     '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-WJC8WS');</script>
     <!-- End Google Tag Manager -->    
+=======
+
+>>>>>>> bf8a39beea0cd2f72fad8269145b8411e93648ce
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
             <![endif]-->
             
             <!--Header Area Start-->
             <header class="header-two">
+                <div class="languages">
+                    <div id="flag">
+                        <?php language_selector_flags(); ?>
+                    </div>
+                </div>
                 <div class="header-logo-menu">
                     <div class="container">
                         <div class="row">
@@ -101,7 +110,7 @@
                                                 <a href="index.html"><img src="<?php bloginfo('template_url') ?>/img/logo/logo.png" alt="ADVENTURES"></a>
                                             </div>
                                         </div>
-                                        <div class="col-md-8 hidden-sm hidden-xs">
+                                        <div class="col-md-7 hidden-sm hidden-xs text-right">
                                             <div class="mainmenu">
                                                 <nav>
                                                     <?php wp_nav_menu(array(
@@ -128,28 +137,31 @@
                                 <div class="col-lg-12 col-md-12 col-sm-12">
                                     <div class="mobile-menu">
                                         <nav id="dropdown">
-                                            <ul>
-                                                <li><a href="<?php echo home_url(); ?>">Inicio</a>
-                                                </li>
-                                                <li><a href="<?php echo home_url('blog'); ?>">Blog</a>
-                                                </li>
-                                                <li><a href="<?php echo home_url('contact'); ?>">Contact Us</a>
-                                                </li>
-                                                <li><a href="<?php echo home_url('about'); ?>">About Us</a>
-                                                    <li><a href="<?php echo home_url('tour'); ?>">Tour</a></li>
-                                                </ul>
+                                            <?php wp_nav_menu(array(
+                                                'theme_location' => 'Mobile',
+                                                'container' => '',
+                                                'container_class' => 'pull-right',
+                                                'menu_id' => 'nav'
+                                                ));
+                                                ?>
                                             </nav>
                                         </div>                  
                                     </div>
                                 </div>
                             </div>
                         </div>
+<<<<<<< HEAD
 
                     </div>
                 </div>
             </div>  
             <!--End of Logo Mainmenu-->
             
+=======
+                    </div>
+                </div>
+            </div>
+>>>>>>> bf8a39beea0cd2f72fad8269145b8411e93648ce
         </header>
 
         <!--End of Header Area-->

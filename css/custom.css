@@ -1,3 +1,29 @@
-.disqus-footer__wrapper {
-  display: none !important;
+#flag img{
+	margin-right: 3%;
+	width: 30px;
+	margin-bottom: 23%;	 
+}
+#flag a img{
+	margin-right: 3%;
+	width: 30px;
+	margin-bottom: 23%;
+}
+.languages{
+	background-color:rgba(94, 94, 94, 0.55);
+	padding: 1%;
+	width: 4%;
+	position: fixed;
+	margin-top: 1.5%;
+}
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.languages{
+		width: 15%;
+		padding: 2%;
+		z-index: 999;
+	}
+	#flag{
+		margin-left: 15%;
+	}
 }
