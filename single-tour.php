@@ -107,4 +107,5 @@
         </div>
     </div>
     <!--End of Trip Inclution-->
+    <div class="text-center"><button class="booking-button-two"><a href="https://www.peruhop.com" target="_blank" onClick="_gaq.push(['_trackEvent', 'book_now', 'link', 'click', 'click']);">Book now</a></button></div>
 <?php get_footer(); ?>
