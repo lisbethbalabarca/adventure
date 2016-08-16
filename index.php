@@ -202,7 +202,7 @@
                                 </div>
                                 <div class="col-md-6 col-sm-6 margin-left">
                                     <div class="blog-text">
-                                        <h4><a src="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                        <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
                                         <p><?php the_excerpt(); ?></p>
                                         <a href="<?php the_permalink(); ?>" class="button-one button-yellow">Learn More</a>
                                         <div class="blog-link">

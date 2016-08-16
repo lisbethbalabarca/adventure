@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 <!--Banner Area Start-->
 <?php while(have_posts()) { the_post(); ?>
-    <div class="banner-area details-one" style="background-image: url('<?php the_field('imagen') ?>');">
+    <div class="banner-area details-one" style="background-image: url('<?php the_field('image_blog') ?>');">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -18,7 +18,7 @@
                 <div class="col-md-12 text-center">
                     <ul class="breadcrumb">
                         <li><a href="<?php echo home_url(); ?>">Home</a></li>
-                        <li>Tour</li>
+                        <li>Blog</li>
                         <!--// falta el q lleva al tour-->
                     </ul>
                 </div>

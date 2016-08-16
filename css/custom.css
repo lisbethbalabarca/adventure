@@ -27,3 +27,11 @@
 		margin-left: 15%;
 	}
 }
+
+.banner-area.details-one::before {
+	background: none;
+}
+
+#disqus_thread #dsq-app2 body #footer,.disqus-footer__wrapper{
+	display: none;
+}
