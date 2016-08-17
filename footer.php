@@ -113,7 +113,7 @@
         <script>
             (function() {
                 new UIMorphingButton( document.querySelector( '.morph-button' ), {
-                    closeEl : '.icon-close'
+                    closeEl : '.fa-times-circle'
                 } );
             })();
         </script>

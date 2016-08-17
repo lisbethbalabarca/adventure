@@ -57,7 +57,7 @@
         </div>
         <!--End of Trip Information-->
         <!--Trip Inclution Start-->
-        <div class="trip-inclution section-padding">
+        <div class="trip-inclution ">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -106,7 +106,9 @@
                 </div>
             </div>
         </div>
-        <div id="accordion">
+        <div class="container">
+            <div class="row">
+                <div id="accordion" class="col-md-12">
             <h3>Section 1</h3>
             <div>
                 <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
@@ -129,14 +131,6 @@
                 <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
             </div>
         </div>
-        <div class="section-padding">
-            <div class="container">
-                <div class="row">
-                    <label for="from">From</label>
-                    <input type="text" id="from" name="from">
-                    <label for="to">to</label>
-                    <input type="text" id="to" name="to">
-                </div>
             </div>
         </div>
 <!--End of Trip Inclution-->

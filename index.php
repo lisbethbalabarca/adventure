@@ -78,7 +78,7 @@
                             <div class="morph-content">
                                 <div>
                                     <div class="content-style-video">
-                                        <span class="icon icon-close">Close the dialog</span>
+                                        <i class="fa fa-times-circle"></i>
                                         <div class="video-mockup">
                                             <iframe width="640" height="400" src="https://www.youtube.com/embed/uu2h5ErhdvA" frameborder="0" allowfullscreen></iframe>
                                         </div>

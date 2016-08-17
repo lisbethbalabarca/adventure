@@ -35,3 +35,14 @@
 #disqus_thread #dsq-app2 body #footer,.disqus-footer__wrapper{
 	display: none;
 }
+#accordion{
+	padding: 3%;
+}
+
+.ui-accordion-header{
+	text-align: center;
+    background-color: #ffae00;
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px !important;
+}

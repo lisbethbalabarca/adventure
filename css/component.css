@@ -197,3 +197,10 @@
 	width: 640px;
 	height: 400px;
 }
+.fa-times-circle {
+	position: absolute;
+	top: 33px;
+	right: 20px;
+	color: #ffae00;
+	font-size: 2em;
+}
