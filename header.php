@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Yungas Road</title>
-   
+    
     
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -68,6 +68,13 @@
         <!--custom css
         ============================================ -->
         <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/custom.css">
+
+        <!--CSS DE PRUEBA, SI LA CAGAMOS, LO QUITAMOS!
+        ============================================ -->
+        <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/css/component.css" />
+        <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/css/content.css" />
         
         <!-- modernizr JS
         ============================================ -->        
@@ -75,19 +82,15 @@
 
     </head>
     <body>
-<<<<<<< HEAD
-     <!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WJC8WS"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+       <!-- Google Tag Manager -->
+       <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WJC8WS"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-WJC8WS');</script>
     <!-- End Google Tag Manager -->    
-=======
-
->>>>>>> bf8a39beea0cd2f72fad8269145b8411e93648ce
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
             <![endif]-->
@@ -150,18 +153,13 @@
                                 </div>
                             </div>
                         </div>
-<<<<<<< HEAD
-
                     </div>
                 </div>
             </div>  
             <!--End of Logo Mainmenu-->
-            
-=======
-                    </div>
-                </div>
-            </div>
->>>>>>> bf8a39beea0cd2f72fad8269145b8411e93648ce
-        </header>
+        </div>
+    </div>
+</div>
+</header>
 
         <!--End of Header Area-->

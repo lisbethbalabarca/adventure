@@ -72,7 +72,20 @@
                             <div class="about-text">     
                                 <p><?php the_field('texto_introduccion' , 'options') ?></p>
                                
-                            </div>     
+                            </div>
+                            <div class="morph-button morph-button-modal morph-button-modal-4 morph-button-fixed">
+                            <button type="button">Watch the Trailer</button>
+                            <div class="morph-content">
+                                <div>
+                                    <div class="content-style-video">
+                                        <span class="icon icon-close">Close the dialog</span>
+                                        <div class="video-mockup">
+                                            <iframe width="640" height="400" src="https://www.youtube.com/embed/uu2h5ErhdvA" frameborder="0" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- morph-button -->    
                         </div>    
                     </div>
                 </div>
