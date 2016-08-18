@@ -36,7 +36,6 @@
 	display: none;
 }
 #accordion{
-<<<<<<< HEAD
 	padding-bottom: 3%;
 }
 
@@ -53,7 +52,6 @@
 
 .morph-button{
 	font-size: 21px;
-=======
 	padding: 3%;
 }
 
@@ -63,5 +61,4 @@
     color: #fff;
     font-weight: bold;
     font-size: 21px !important;
->>>>>>> be1085fa503a34f7a3d63692d90f6c058a49972f
 }
