@@ -1,3 +1,29 @@
+<<<<<<< HEAD
+=======
+/* Icons */
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'icomoon';
+	src:url('<?php bloginfo('template_url') ?>/fonts/icomoon/icomoon.eot?');
+	src:url('<?php bloginfo('template_url') ?>/fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('<?php bloginfo('template_url') ?>/fonts/icomoon/icomoon.woff?') format('woff'),
+		url('<?php bloginfo('template_url') ?>/fonts/icomoon/icomoon.ttf?') format('truetype'),
+		url('<?php bloginfo('template_url') ?>/fonts/icomoon/icomoon.svg?') format('svg');
+}
+
+.icon-close {
+	z-index: 100;
+	display: block;
+	overflow: hidden;
+	width: 3em;
+	height: 3em;
+	text-align: center;
+	line-height: 3;
+	cursor: pointer;
+}
+
+>>>>>>> be1085fa503a34f7a3d63692d90f6c058a49972f
 .icon:before {
 	position: relative;
 	display: block;

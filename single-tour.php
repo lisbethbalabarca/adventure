@@ -57,7 +57,11 @@
         </div>
         <!--End of Trip Information-->
         <!--Trip Inclution Start-->
+<<<<<<< HEAD
         <div class="trip-inclution">
+=======
+        <div class="trip-inclution ">
+>>>>>>> be1085fa503a34f7a3d63692d90f6c058a49972f
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -71,6 +75,7 @@
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
         <div id="accordion">
          <h3>    
             <i class="fa fa-cutlery"></i> &nbsp Meals
@@ -81,6 +86,27 @@
                     <h4>Meals</h4>
                     <p><?php the_field('meals_information', 'options'); ?></p>
                 </div>
+=======
+        <div class="container">
+            <div class="row">
+                <div id="accordion" class="col-md-12">
+            <h3>Section 1</h3>
+            <div>
+                <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+            </div>
+            <h3>Section 2</h3>
+            <div>
+                <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+            </div>
+            <h3>Section 3</h3>
+            <div>
+                <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+                <ul>
+                    <li>List item one</li>
+                    <li>List item two</li>
+                    <li>List item three</li>
+                </ul>
+>>>>>>> be1085fa503a34f7a3d63692d90f6c058a49972f
             </div>
         </div>
         <h3>
@@ -94,6 +120,7 @@
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
         <h3>
             <i class="fa fa-bicycle"></i> &nbsp Activities
         </h3>
@@ -103,6 +130,8 @@
                     <h4>Accommodation</h4>
                     <p><?php the_field('activities_information', 'options'); ?></p>
                 </div>
+=======
+>>>>>>> be1085fa503a34f7a3d63692d90f6c058a49972f
             </div>
         </div>
     </div>
