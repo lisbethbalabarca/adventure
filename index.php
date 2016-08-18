@@ -74,11 +74,11 @@
                                
                             </div>
                             <div class="morph-button morph-button-modal morph-button-modal-4 morph-button-fixed">
-                            <button type="button">Watch the Trailer</button>
+                            <button type="button">Video <i class="fa fa-youtube-play"></i></button>
                             <div class="morph-content">
                                 <div>
                                     <div class="content-style-video">
-                                        <span class="icon icon-close">Close the dialog</span>
+                                        <i class="fa fa-times-circle"></i>
                                         <div class="video-mockup">
                                             <iframe width="640" height="400" src="https://www.youtube.com/embed/uu2h5ErhdvA" frameborder="0" allowfullscreen></iframe>
                                         </div>
@@ -113,7 +113,7 @@
                     <div class="single-portfolio">
                         <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail("tour"); ?></a>
                         <div class="portfolio-text effect-bottom">
-                            <h4><a src="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                            <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
                             <p><?php the_excerpt(); ?></p>
                             <div class="portfolio-link">
                                 <?php comments_number('0 comentarios', '1 comentario', '%comentarios'); ?>   

@@ -1,11 +1,7 @@
 <?php get_header(); ?>
 <!--End of Header Area-->
 <!--Banner Area Start-->
-<<<<<<< HEAD
 <div class="banner-area blog-one" style="background-image: url('<?php the_field('hero_tour', 'options') ?>');">
-=======
-<div class="banner-area blog-one" style="background-image: url('<?php the_field('hero_tour') ?>');" >
->>>>>>> f64503e4f442c248d82117f10a6c98dcd16ff35c
     <div class="container">
         <div class="row">
             <div class="col-md-12">

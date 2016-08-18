@@ -64,37 +64,7 @@
 	return $api;
 	}
 	add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
-<<<<<<< HEAD
 
-	function copyright_oculto() { ?>
- 
-<script type='text/javascript'>
-function addLink() {
-    var body_element = document.getElementsByTagName('body')[0];
-    var selection;
-    selection = window.getSelection();
-    var pagelink = "<br /><br /> Artículo publicado en Ayuda WordPress: <?php if(is_single()){ the_title();}?> <a href='"+document.location.href+"'>"+document.location.href+"</a>"; //Cambia en esta línea lo que quieras
-    var copy_text = selection + pagelink;
-    var new_div = document.createElement('div');
-	new_div.style.left='-99999px';
-	new_div.style.position='absolute';
- 
-    body_element.appendChild(new_div );
-    new_div.innerHTML = copy_text ;
-    selection.selectAllChildren(new_div );
-    window.setTimeout(function() {
-        body_element.removeChild(new_div );
-    },0);
-}
- 
-document.oncopy = addLink;
-</script>
- 
-<?php
-}
- 
-add_action( 'wp_head', 'copyright_oculto');
-=======
 	function language_selector_flags(){
     $languages = icl_get_languages('skip_missing=0&orderby=code');
     if(!empty($languages)){
@@ -105,5 +75,4 @@ add_action( 'wp_head', 'copyright_oculto');
         }
     }
 }
->>>>>>> bf8a39beea0cd2f72fad8269145b8411e93648ce
 ?>
